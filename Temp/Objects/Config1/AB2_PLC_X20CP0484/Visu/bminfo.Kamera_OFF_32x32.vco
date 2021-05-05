@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Kamera_OFF_32x32" ClsId="0x306" Version="1" TargetIndex="5" Type="GFX" RefString="Source[local].Bitmap[Kamera_OFF_32x32]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGHSURBVFhH7de/K0ZRHMfxi1ImE0arwWYwYTIoA1kU+RdktTyyKpKspFgsZhMlocgoKRYm/wD5+f48PaeO0/c+997uidT91Gs593vP/XZ/nPM8SZX/kgHs4BLXKa6wjX74WUJYe4YFtCIzc3jHV04v2MQa1JBV49TQNH3QhNbJMTyjafZhnRhTanrwBleo59aNzhRZt9tyj3paMINdHDRcwC++hTtmuYFfv4d5fHhjvk/omkk7DmEVlaGLKxPYgu6Qo5d0CPUsw5qgLNdAmDb0NnRp4AnWBGVZDUziEa5GX9iPk2LawEiDsg6rzhzUIqJFInQEqz6LohXQPGYN6vlYURNWfRalaqBQA1r19LxDD7DqsyiFGohNqRr49Qa04umioqQ24G+5MYVL8SDuENYlJ8FALNZe0IFFuC1cu2QyjCK/+fJK2w3NjCP2rlioAUX79DGsyVbhdjaxnmWocAPKOcKJXhEuzdMI60JTKJxRqAn3+egFHYOVWZzC1fpWkOtPR5U/TpJ8A3VBZQKywyj2AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

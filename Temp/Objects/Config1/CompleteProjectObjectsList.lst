@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.5.60 SP"?>
+<Objects>
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132211356864230803" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="132646757421490759"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132259770898879252"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132236506713830901"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132259758136432174" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="132194260094227824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132194260094227824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132194260094227824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132194260094227824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="132194260102165824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132194260102165824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132194260102165824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132194260102165824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="132194260109809824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132194260109653824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132194260109653824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132194260109809824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="132194260117297824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132194260117141824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132194260117141824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132194260117297824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsSafety\binary.lby"
+    LogicalPath="Libraries.AsSafety"
+    Type="Library"
+    LastWriteTime="132194262653883837" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsSafety\AsSafety.fun"
+    LogicalPath="Libraries.AsSafety.AsSafety.fun"
+    Type="File"
+    LastWriteTime="132194262653727837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsSafety\AsSafety.typ"
+    LogicalPath="Libraries.AsSafety.AsSafety.typ"
+    Type="File"
+    LastWriteTime="132194262653883837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsSafety\AsSafety.var"
+    LogicalPath="Libraries.AsSafety.AsSafety.var"
+    Type="File"
+    LastWriteTime="132194262653883837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\FileIO\binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="132194262656691837" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="132194262656691837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="132194262656691837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="132194262656691837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\DataObj\binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="132194262657003837" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="132194262656847837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="132194262657003837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="132194262657003837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsXml\binary.lby"
+    LogicalPath="Libraries.AsXml"
+    Type="Library"
+    LastWriteTime="132194262657315837" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsXml\AsXml.fun"
+    LogicalPath="Libraries.AsXml.AsXml.fun"
+    Type="File"
+    LastWriteTime="132194262657315837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsXml\AsXml.typ"
+    LogicalPath="Libraries.AsXml.AsXml.typ"
+    Type="File"
+    LastWriteTime="132194262657315837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsXml\AsXml.var"
+    LogicalPath="Libraries.AsXml.AsXml.var"
+    Type="File"
+    LastWriteTime="132194262657315837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="132194262657471837" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="132194262657471837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="132194262657471837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="132194262657471837"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsBrStr\binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="132194866187072233" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="132194866186760233"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="132194866186916233"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="132194866186916233"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\IecCheck\IEC.lby"
+    LogicalPath="Libraries.IecCheck"
+    Type="Library"
+    LastWriteTime="132194866704192236" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\IecCheck\IecCheck.fun"
+    LogicalPath="Libraries.IecCheck.IecCheck.fun"
+    Type="File"
+    LastWriteTime="132194866703880236"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\IecCheck\IecCheck.st"
+    LogicalPath="Libraries.IecCheck.IecCheck.st"
+    Type="File"
+    LastWriteTime="132194866704192236"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\sys_lib\binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="132194866708404236" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="132194866708248236"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="132194866708404236"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="132194866708404236"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\SC\IEC.lby"
+    LogicalPath="Libraries.SC"
+    Type="Library"
+    LastWriteTime="132194867021044238" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\SC\Types.typ"
+    LogicalPath="Libraries.SC.Types.typ"
+    Type="File"
+    LastWriteTime="132194867020732238"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\SC\Constants.var"
+    LogicalPath="Libraries.SC.Constants.var"
+    Type="File"
+    LastWriteTime="132194867020732238"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\SC\SC.fun"
+    LogicalPath="Libraries.SC.SC.fun"
+    Type="File"
+    LastWriteTime="132194867020732238"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\SC\SequenceControl.st"
+    LogicalPath="Libraries.SC.SequenceControl.st"
+    Type="File"
+    LastWriteTime="132194867021044238"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsTCP\binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="132195122209489146" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="132195122209489146"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="132195122209489146"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="132195122209489146"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsMath\binary.lby"
+    LogicalPath="Libraries.AsMath"
+    Type="Library"
+    LastWriteTime="132195122449111147" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsMath\AsMath.fun"
+    LogicalPath="Libraries.AsMath.AsMath.fun"
+    Type="File"
+    LastWriteTime="132195122449111147"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsMath\AsMath.typ"
+    LogicalPath="Libraries.AsMath.AsMath.typ"
+    Type="File"
+    LastWriteTime="132195122449111147"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\AsMath\AsMath.var"
+    LogicalPath="Libraries.AsMath.AsMath.var"
+    Type="File"
+    LastWriteTime="132195122449111147"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpRecipe\Binary.lby"
+    LogicalPath="Libraries.MpRecipe"
+    Type="Library"
+    LastWriteTime="132259758135772174" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpRecipe\MpRecipe.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.typ"
+    Type="File"
+    LastWriteTime="132259758135732174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeAlarm.typ"
+    Type="File"
+    LastWriteTime="132259758135742174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpRecipe\MpRecipeError.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeError.typ"
+    Type="File"
+    LastWriteTime="132259758135752174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpRecipe\MpRecipe.fun"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.fun"
+    Type="File"
+    LastWriteTime="132259758135762174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="132259758136022174" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="132259758135982174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="132259758135992174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="132259758136002174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="132259758136022174"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Package.pkg"
+    LogicalPath="Program"
+    Type="Package"
+    LastWriteTime="132211356675290802" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\IEC.prg"
+    LogicalPath="Program.Main"
+    Type="Program"
+    LastWriteTime="132197676351940614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\Main.st"
+    LogicalPath="Program.Main.Main.st"
+    Type="File"
+    LastWriteTime="132236405555604320"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\Types.typ"
+    LogicalPath="Program.Main.Types.typ"
+    Type="File"
+    LastWriteTime="132194869481008252"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\Variables.var"
+    LogicalPath="Program.Main.Variables.var"
+    Type="File"
+    LastWriteTime="132194869481008252"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\OvlSafety.st"
+    LogicalPath="Program.Main.OvlSafety.st"
+    Type="File"
+    LastWriteTime="132211283449366367"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\IEC.prg"
+    LogicalPath="Program.VstupnyOddelovac"
+    Type="Program"
+    LastWriteTime="132197678443460614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\Main.st"
+    LogicalPath="Program.VstupnyOddelovac.Main.st"
+    Type="File"
+    LastWriteTime="132236393995626250"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\Types.typ"
+    LogicalPath="Program.VstupnyOddelovac.Types.typ"
+    Type="File"
+    LastWriteTime="132194875810406291"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\Variables.var"
+    LogicalPath="Program.VstupnyOddelovac.Variables.var"
+    Type="File"
+    LastWriteTime="132197683253600614"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\OvlStoprov.st"
+    LogicalPath="Program.VstupnyOddelovac.OvlStoprov.st"
+    Type="File"
+    LastWriteTime="132210412929922010"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\IEC.prg"
+    LogicalPath="Program.Popisovanie"
+    Type="Program"
+    LastWriteTime="132201137258734406" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Main.st"
+    LogicalPath="Program.Popisovanie.Main.st"
+    Type="File"
+    LastWriteTime="132259783287701326"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Types.typ"
+    LogicalPath="Program.Popisovanie.Types.typ"
+    Type="File"
+    LastWriteTime="132194875823978291"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Variables.var"
+    LogicalPath="Program.Popisovanie.Variables.var"
+    Type="File"
+    LastWriteTime="132201141472284406"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\OvlStopra.st"
+    LogicalPath="Program.Popisovanie.OvlStopra.st"
+    Type="File"
+    LastWriteTime="132198484496532340"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\OvlZdvizky.st"
+    LogicalPath="Program.Popisovanie.OvlZdvizky.st"
+    Type="File"
+    LastWriteTime="132259779378149303"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\SpravaPreLaser.st"
+    LogicalPath="Program.Popisovanie.SpravaPreLaser.st"
+    Type="File"
+    LastWriteTime="132646092422657521"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\IEC.prg"
+    LogicalPath="Program.Checker"
+    Type="Program"
+    LastWriteTime="132197679827420614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\Main.st"
+    LogicalPath="Program.Checker.Main.st"
+    Type="File"
+    LastWriteTime="132236552148538175"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\Types.typ"
+    LogicalPath="Program.Checker.Types.typ"
+    Type="File"
+    LastWriteTime="132194875852860291"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\Variables.var"
+    LogicalPath="Program.Checker.Variables.var"
+    Type="File"
+    LastWriteTime="132198411198886211"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\OvlStoprov.st"
+    LogicalPath="Program.Checker.OvlStoprov.st"
+    Type="File"
+    LastWriteTime="132210416568382010"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\IEC.prg"
+    LogicalPath="Program.Poruchy_Signalizacie"
+    Type="Program"
+    LastWriteTime="132194876507292295" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\Main.st"
+    LogicalPath="Program.Poruchy_Signalizacie.Main.st"
+    Type="File"
+    LastWriteTime="132236409907252346"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\Types.typ"
+    LogicalPath="Program.Poruchy_Signalizacie.Types.typ"
+    Type="File"
+    LastWriteTime="132194876507292295"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\Variables.var"
+    LogicalPath="Program.Poruchy_Signalizacie.Variables.var"
+    Type="File"
+    LastWriteTime="132198563495162340"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\IEC.prg"
+    LogicalPath="Program.MeranieTaktime"
+    Type="Program"
+    LastWriteTime="132198570747842340" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\Main.st"
+    LogicalPath="Program.MeranieTaktime.Main.st"
+    Type="File"
+    LastWriteTime="132198572016532340"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\Types.typ"
+    LogicalPath="Program.MeranieTaktime.Types.typ"
+    Type="File"
+    LastWriteTime="132198570747732340"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\Variables.var"
+    LogicalPath="Program.MeranieTaktime.Variables.var"
+    Type="File"
+    LastWriteTime="132198570747742340"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Package.pkg"
+    LogicalPath="Blikace"
+    Type="Package"
+    LastWriteTime="132211482802404379" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie200ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie200ms"
+    Type="Program"
+    LastWriteTime="132194870101896256" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie200ms\Blikanie200ms.st"
+    LogicalPath="Blikace.Blikanie200ms.Blikanie200ms.st"
+    Type="File"
+    LastWriteTime="132194870101740256"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie500ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie500ms"
+    Type="Program"
+    LastWriteTime="132194870102052256" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie500ms\Blikanie500ms.st"
+    LogicalPath="Blikace.Blikanie500ms.Blikanie500ms.st"
+    Type="File"
+    LastWriteTime="132194870101896256"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie5s\IEC.prg"
+    LogicalPath="Blikace.Blikanie5s"
+    Type="Program"
+    LastWriteTime="132194870102052256" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie5s\Blikanie5s.st"
+    LogicalPath="Blikace.Blikanie5s.Blikanie5s.st"
+    Type="File"
+    LastWriteTime="132194870102052256"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie1s\IEC.prg"
+    LogicalPath="Blikace.Blikanie1s"
+    Type="Program"
+    LastWriteTime="132211482970928380" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Blikace\Blikanie1s\Blikanie1s.st"
+    LogicalPath="Blikace.Blikanie1s.Blikanie1s.st"
+    Type="File"
+    LastWriteTime="132211483254420382"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\Package.pkg"
+    LogicalPath="HMI"
+    Type="Package"
+    LastWriteTime="132194877476366301" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\IEC.prg"
+    LogicalPath="HMI.OvladanieGrafiky"
+    Type="Program"
+    LastWriteTime="132211488921704416" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\Main.st"
+    LogicalPath="HMI.OvladanieGrafiky.Main.st"
+    Type="File"
+    LastWriteTime="132259782567773322"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\Types.typ"
+    LogicalPath="HMI.OvladanieGrafiky.Types.typ"
+    Type="File"
+    LastWriteTime="132194876852836297"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\Variables.var"
+    LogicalPath="HMI.OvladanieGrafiky.Variables.var"
+    Type="File"
+    LastWriteTime="132194876852836297"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\Visu\Vc.dob"
+    LogicalPath="HMI.Visu"
+    Type="DataObject"
+    LastWriteTime="132194877475898301" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\Visu\VCObject.vc"
+    LogicalPath="HMI.Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="132194877475898301"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\Package.pkg"
+    LogicalPath="Komunikacia_Laser"
+    Type="Package"
+    LastWriteTime="132201092816614353" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\Vycitanie_casu\IEC.prg"
+    LogicalPath="Komunikacia_Laser.Vycitanie_casu"
+    Type="Program"
+    LastWriteTime="132195123659683154" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\Vycitanie_casu\citanie_casu_z_PLC.ab"
+    LogicalPath="Komunikacia_Laser.Vycitanie_casu.citanie_casu_z_PLC.ab"
+    Type="File"
+    LastWriteTime="132195125825299167"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\IEC.prg"
+    LogicalPath="Komunikacia_Laser.EthernetovaKomunikacia"
+    Type="Program"
+    LastWriteTime="132195126175359169" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\Main.st"
+    LogicalPath="Komunikacia_Laser.EthernetovaKomunikacia.Main.st"
+    Type="File"
+    LastWriteTime="132236525612802015"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\Types.typ"
+    LogicalPath="Komunikacia_Laser.EthernetovaKomunikacia.Types.typ"
+    Type="File"
+    LastWriteTime="132195126175359169"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\Variables.var"
+    LogicalPath="Komunikacia_Laser.EthernetovaKomunikacia.Variables.var"
+    Type="File"
+    LastWriteTime="132195126175359169"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\Package.pkg"
+    LogicalPath="Komunikacia_Checker"
+    Type="Package"
+    LastWriteTime="132211357243786805" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\IEC.prg"
+    LogicalPath="Komunikacia_Checker.CheckerKomunikacia"
+    Type="Program"
+    LastWriteTime="132211357001798803" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\Main.st"
+    LogicalPath="Komunikacia_Checker.CheckerKomunikacia.Main.st"
+    Type="File"
+    LastWriteTime="132211464364592268"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\Types.typ"
+    LogicalPath="Komunikacia_Checker.CheckerKomunikacia.Types.typ"
+    Type="File"
+    LastWriteTime="132211357001798803"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\Variables.var"
+    LogicalPath="Komunikacia_Checker.CheckerKomunikacia.Variables.var"
+    Type="File"
+    LastWriteTime="132211357001798803"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Package.pkg"
+    LogicalPath="Receptury"
+    Type="Package"
+    LastWriteTime="132199177369766105" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\IEC.prg"
+    LogicalPath="Receptury.Receptury"
+    Type="Program"
+    LastWriteTime="132199177369756105" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\Main.st"
+    LogicalPath="Receptury.Receptury.Main.st"
+    Type="File"
+    LastWriteTime="132236424221304433"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\Types.typ"
+    LogicalPath="Receptury.Receptury.Types.typ"
+    Type="File"
+    LastWriteTime="132199177369646105"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\Variables.var"
+    LogicalPath="Receptury.Receptury.Variables.var"
+    Type="File"
+    LastWriteTime="132236422033058420"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\Package.pkg"
+    LogicalPath="PrihlasovaciSystem"
+    Type="Package"
+    LastWriteTime="132199181629632105" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\IEC.prg"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem"
+    Type="Program"
+    LastWriteTime="132199181629612105" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Main.st"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Main.st"
+    Type="File"
+    LastWriteTime="132199183715282105"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Types.typ"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Types.typ"
+    Type="File"
+    LastWriteTime="132199181629572105"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Variables.var"
+    LogicalPath="PrihlasovaciSystem.PrihlasovaciSystem.Variables.var"
+    Type="File"
+    LastWriteTime="132236578505205329"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\RemanentnePremenne\Package.pkg"
+    LogicalPath="RemanentnePremenne"
+    Type="Package"
+    LastWriteTime="132194871257426263" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Poznamky\Package.pkg"
+    LogicalPath="Poznamky"
+    Type="Package"
+    LastWriteTime="132194871896234267" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Poznamky\Poznamky.txt"
+    LogicalPath="Poznamky.Poznamky.txt"
+    Type="File"
+    LastWriteTime="132324429117816703"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132197539110460614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132646010427641692"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132646757642250779"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Cpu.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484"
+    Type="Cpu"
+    LastWriteTime="132267698661766475" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Cpu.sw"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.Cpu.sw"
+    Type="File"
+    LastWriteTime="132235824955468985"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Cpu.per"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.Cpu.per"
+    Type="File"
+    LastWriteTime="132236506902746902"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\IoMap.iom"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.IoMap.iom"
+    Type="File"
+    LastWriteTime="132235783398846734"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\PvMap.vvm"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132194260121353824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Connectivity\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.Connectivity"
+    Type="Package"
+    LastWriteTime="132194260122601824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="132194260122601824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\TextSystem\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.TextSystem"
+    Type="Package"
+    LastWriteTime="132194260122601824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\UnitSystem\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.UnitSystem"
+    Type="Package"
+    LastWriteTime="132194260122601824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132194260123381824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132194260122913824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="132194260122757824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="132194260122913824"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132194260123069824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132194260123225824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132194260123381824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappControl\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappControl"
+    Type="Package"
+    LastWriteTime="132194260123381824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappMotion\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappMotion"
+    Type="Package"
+    LastWriteTime="132194260123381824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappServices\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappServices"
+    Type="Package"
+    LastWriteTime="132194867859078243" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappServices\Config.mprecipexml"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappServices.Config.mprecipexml"
+    Type="File"
+    LastWriteTime="132194868818632248"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappServices\Config_1.mprecipexml"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappServices.Config_1.mprecipexml"
+    Type="File"
+    LastWriteTime="132194868819100248"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappServices\Config_2.mprecipexml"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappServices.Config_2.mprecipexml"
+    Type="File"
+    LastWriteTime="132194868807560248"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\mappView\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.mappView"
+    Type="Package"
+    LastWriteTime="132194260123537824" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM"
+    Type="Package"
+    LastWriteTime="132197538933840614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster"
+    Type="Package"
+    LastWriteTime="132197538933960614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster.dtm"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster.dtm"
+    Type="File"
+    LastWriteTime="132513846338539838"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster_IF1\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster_IF1"
+    Type="Package"
+    LastWriteTime="132197538933940614" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster_IF1\AB1_ProfinetMaster_IF1.dtmdre"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster_IF1.AB1_ProfinetMaster_IF1.dtmdre"
+    Type="File"
+    LastWriteTime="132513846328495223"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster_IF1\AB1_ProfinetMaster_IF1.dtmdra"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster_IF1.AB1_ProfinetMaster_IF1.dtmdra"
+    Type="File"
+    LastWriteTime="132197538934060614"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster_IF1\AB1_ProfinetMaster_IF1.dtmtre"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster_IF1.AB1_ProfinetMaster_IF1.dtmtre"
+    Type="File"
+    LastWriteTime="132194269373723871"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\AB1_ProfinetMaster_IF1\AB1_ProfinetMaster_IF1.dtmdri"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.AB1_ProfinetMaster_IF1.AB1_ProfinetMaster_IF1.dtmdri"
+    Type="File"
+    LastWriteTime="132513755326083982"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\DataMan_260\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.DataMan_260"
+    Type="Package"
+    LastWriteTime="132194269375751871" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\DataMan_260\DataMan_260.dtmdre"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.DataMan_260.DataMan_260.dtmdre"
+    Type="File"
+    LastWriteTime="132235819620410953"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\DataMan_260\DataMan_260.dtmtre"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.DataMan_260.DataMan_260.dtmtre"
+    Type="File"
+    LastWriteTime="132194269373723871"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\DTM\AB1_ProfinetMaster\DataMan_260\DataMan_260.dtmdri"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.DTM.AB1_ProfinetMaster.DataMan_260.DataMan_260.dtmdri"
+    Type="File"
+    LastWriteTime="132194859896378197"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\VC\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.VC"
+    Type="Package"
+    LastWriteTime="132194878128156305" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\VC\6PPT30.0702-20B.dis"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.VC.6PPT30.0702-20B.dis"
+    Type="File"
+    LastWriteTime="132194264229475846"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\VC\PS2-Keyboard.dis"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="132194878128312305"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\ExternalHardware\Package.pkg"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.ExternalHardware"
+    Type="Package"
+    LastWriteTime="132194269320411871" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\ExternalHardware\SNR4ULX0.ext"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.ExternalHardware.SNR4ULX0.ext"
+    Type="File"
+    LastWriteTime="132169195693203290"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\ExternalHardware\ExternalHardwareDevices.xml"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.ExternalHardware.ExternalHardwareDevices.xml"
+    Type="File"
+    LastWriteTime="132194269320411871"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\SafeLOGIC-1.swt"
+    LogicalPath="Config1.AB2_PLC_X20CP0484.SafeLOGIC-1.swt"
+    Type="File"
+    LastWriteTime="132259850262960000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132646757642400371"
+    Private="false" />
+</Objects>
