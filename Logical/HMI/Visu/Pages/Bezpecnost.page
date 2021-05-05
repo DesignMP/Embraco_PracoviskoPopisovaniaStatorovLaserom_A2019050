@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Bezpecnost">
+  <Property Name="BackColor" Value="254"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="EditBackColor" Value="0"/>
+  <Property Name="EditForeColor" Value="46"/>
+  <Property Name="ForeColor" Value="46"/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="4"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="234611" Value="Snímač debničky"/>
+          <Text ID="234612" Value="Bezpečnosť"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="234611" Value=""/>
+          <Text ID="234612" Value=""/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="234611" Value="10"/>
+          <Index ID="234612" Value="12"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PracoviskoPopisovania]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[SunkenNGgray]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="365"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="6"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Empty]"/>
+          <Property Name="Top" Value="58"/>
+          <Property Name="Width" Value="786"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Stav_CS]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.CS_Panel_Odblokov]"/>
+          <Property Name="Left" Value="351"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="220"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_7">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Stav_CS]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.CS_Checker_Odblokov]"/>
+          <Property Name="Left" Value="259"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="Top" Value="248"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_7">
+          <Property Name="BackColor" Value="249"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[SymbolZamku]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapIndexDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.DvereBunky_Zamknute]"/>
+          <Property Name="BitmapSimulationValue" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.DvereBunky_Zamknute]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_65]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="402"/>
+          <Property Name="PressedBackColor" Value="249"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+          <Property Name="PressedColorDatapoint" Value="Source[global].Variable[DataSource.Vizualizacia.LED_TlacitkaOvladanieZamku_BZ3]"/>
+          <Property Name="PressedColorMap" Value="Source[local].ColorMap[SchemaBezpecnosti]"/>
+          <Property Name="PressedColorMapIndexOffset" Value="0"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="RightToLeftLayout" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="226"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_65]"/>
+          <Property Name="Width" Value="46"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_14">
+          <Property Name="BackColor" Value="249"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.SnimacDebnicky_Aktivny]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_78]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial9_Bold]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="456"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="PressedBackColor" Value="249"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="RightToLeftLayout" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="10"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="440"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_78]"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="251"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_SunkenNG]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12_Bold]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="227"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="12"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="63"/>
+          <Property Name="Width" Value="340"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_8">
+          <Property Name="BackColor" Value="249"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Senzor_32x32]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.SnimacKrytuLasera_Aktivny]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_67]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="296"/>
+          <Property Name="PressedBackColor" Value="249"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+          <Property Name="PressedColorDatapoint" Value="Source[global].Variable[DataSource.Vizualizacia.LED_TlacitkaOvladanieZamku_BZ3]"/>
+          <Property Name="PressedColorMap" Value="Source[local].ColorMap[SchemaBezpecnosti]"/>
+          <Property Name="PressedColorMapIndexOffset" Value="0"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="RightToLeftLayout" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="138"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_67]"/>
+          <Property Name="Width" Value="46"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_9">
+          <Property Name="BackColor" Value="249"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Senzor_32x32]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Safety.STAV.SnimacStatorPodLaserom_Aktivny]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_69]"/>
+          <Property Name="ForeColor" Value="0"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="296"/>
+          <Property Name="PressedBackColor" Value="249"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+          <Property Name="PressedColorDatapoint" Value="Source[global].Variable[DataSource.Vizualizacia.LED_TlacitkaOvladanieZamku_BZ3]"/>
+          <Property Name="PressedColorMap" Value="Source[local].ColorMap[SchemaBezpecnosti]"/>
+          <Property Name="PressedColorMapIndexOffset" Value="0"/>
+          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="RightToLeftLayout" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="183"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_69]"/>
+          <Property Name="Width" Value="46"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[Background]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Background"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[ZakladnaLista]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="ZakladnaLista"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[PopPrihlasenie]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="PopPrihlasenie"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[PopPrihlasenie].Control[String_1]">
+      <Property Name="Down" Value="Source[local].Layer[PopPrihlasenie].Control[String_2]"/>
+      <Property Name="Left" Value="Source[local].Layer[PopPrihlasenie].Control[String_2]"/>
+      <Property Name="Right" Value="Source[local].Layer[PopPrihlasenie].Control[String_2]"/>
+      <Property Name="Up" Value="Source[local].Layer[PopPrihlasenie].Control[String_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[PopPrihlasenie].Control[String_2]">
+      <Property Name="Down" Value="Source[local].Layer[PopPrihlasenie].Control[String_1]"/>
+      <Property Name="Left" Value="Source[local].Layer[PopPrihlasenie].Control[String_1]"/>
+      <Property Name="Right" Value="Source[local].Layer[PopPrihlasenie].Control[String_1]"/>
+      <Property Name="Up" Value="Source[local].Layer[PopPrihlasenie].Control[String_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[Background].Control[String_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[PopPrihlasenie].Control[String_1]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[PopPrihlasenie].Control[String_2]"/>
+  </TabSequence>
+</Page>

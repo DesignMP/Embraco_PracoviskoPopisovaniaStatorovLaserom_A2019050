@@ -1,0 +1,5 @@
+VAR
+	SC_OvlStoprov : SequenceControlTyp;
+	Stopre_pozNAVAZANIE : BOOL;
+	Stopre_pozVYVAZANIE : BOOL;
+END_VAR

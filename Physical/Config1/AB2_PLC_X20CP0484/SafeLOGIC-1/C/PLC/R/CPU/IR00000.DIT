@@ -1,0 +1,268 @@
+(*
+T: RESOURCE CPU
+FW: NO
+CI#: 0
+QSL: 43
+QVE: 43
+QVPC: 43
+QPar: 0
+QFBI: 0
+*)
+@V 1 2 0
+siCS_Panel_KanalA	1	VAR_GLOBAL	@TYP:43
+%SIX 16.0		     
+
+;
+
+@V 1 3 0
+siCS_Panel_KanalB	2	VAR_GLOBAL	@TYP:43
+%SIX 16.1		     
+
+;
+
+@V 1 4 0
+siCS_Checker_KanalA	3	VAR_GLOBAL	@TYP:43
+%SIX 16.2		     
+
+;
+
+@V 1 5 0
+siCS_Checker_KanalB	4	VAR_GLOBAL	@TYP:43
+%SIX 16.3		     
+
+;
+
+@V 1 6 0
+siVyblokovanieZamkov_KanalA	5	VAR_GLOBAL	@TYP:43
+%SIX 16.4		     
+
+;
+
+@V 1 7 0
+siVyblokovanieZamkov_KanalB	6	VAR_GLOBAL	@TYP:43
+%SIX 16.5		     
+
+;
+
+@V 1 8 0
+siDvereBunky_KanalA	7	VAR_GLOBAL	@TYP:43
+%SIX 60.0		     
+
+;
+
+@V 1 9 0
+siDvereBunky_KanalB	8	VAR_GLOBAL	@TYP:43
+%SIX 60.1		     
+
+;
+
+@V 1 10 0
+siStatorPodLaserom_KanalA	9	VAR_GLOBAL	@TYP:43
+%SIX 60.2		     
+
+;
+
+@V 1 11 0
+siStatorPodLaserom_KanalB	10	VAR_GLOBAL	@TYP:43
+%SIX 60.3		     
+
+;
+
+@V 1 12 0
+siKrytLasera_KanalA	11	VAR_GLOBAL	@TYP:43
+%SIX 60.4		     
+
+;
+
+@V 1 13 0
+siKrytLasera_KanalB	12	VAR_GLOBAL	@TYP:43
+%SIX 60.5		     
+
+;
+
+@V 1 15 0
+soZona_CS	13	VAR_GLOBAL	@TYP:43
+%SQX 12.0		     
+
+;
+
+@V 1 16 0
+soZona_VnutroBunky	14	VAR_GLOBAL	@TYP:43
+%SQX 12.1		     
+
+;
+
+@V 1 17 0
+soZona_Laser	15	VAR_GLOBAL	@TYP:43
+%SQX 12.2		     
+
+;
+
+@V 1 18 0
+soExternyCS_KanalA	16	VAR_GLOBAL	@TYP:43
+%SQX 12.4		     
+
+;
+
+@V 1 19 0
+soExternyCS_KanalB	17	VAR_GLOBAL	@TYP:43
+%SQX 12.5		     
+
+;
+
+@V 1 20 0
+Release_soZona_CS	18	VAR_GLOBAL	@TYP:1
+%NSQX 4.0		     
+
+;
+
+@V 1 21 0
+Release_soZona_VnutroBunky	19	VAR_GLOBAL	@TYP:1
+%NSQX 4.1		     
+
+;
+
+@V 1 22 0
+Release_soZona_Laser	20	VAR_GLOBAL	@TYP:1
+%NSQX 4.2		     
+
+;
+
+@V 1 23 0
+Release_soExternyCS_KanalA	21	VAR_GLOBAL	@TYP:1
+%NSQX 4.4		     
+
+;
+
+@V 1 24 0
+Release_soExternyCS_KanalB	22	VAR_GLOBAL	@TYP:1
+%NSQX 4.5		     
+
+;
+
+@V 1 26 0
+Reset_ZonyCS	23	VAR_GLOBAL	@TYP:1
+%NSIX 0.0		     
+
+;
+
+@V 1 27 0
+Reset_ZonyLaser	24	VAR_GLOBAL	@TYP:1
+%NSIX 0.1		     
+
+;
+
+@V 1 28 0
+Reset_ZonyVnutroBunky	25	VAR_GLOBAL	@TYP:1
+%NSIX 0.2		     
+
+;
+
+@V 1 29 0
+ZonaCS_SpatnaVezba	26	VAR_GLOBAL	@TYP:1
+%NSIX 0.3		     
+
+;
+
+@V 1 30 0
+ZonaLaser_SpatnaVezba	27	VAR_GLOBAL	@TYP:1
+%NSIX 0.4		     
+
+;
+
+@V 1 31 0
+ZonaVnutroBunky_SpatnaVezba	28	VAR_GLOBAL	@TYP:1
+%NSIX 0.5		     
+
+;
+
+@V 1 32 0
+TlakVzduchu_OK	29	VAR_GLOBAL	@TYP:1
+%NSIX 0.6		     
+
+;
+
+@V 1 33 0
+ZdvihZdvizky_SpatnaVezba	30	VAR_GLOBAL	@TYP:1
+%NSIX 0.7		     
+
+;
+
+@V 1 35 0
+SafetyPLC_Nabehlo	31	VAR_GLOBAL	@TYP:1
+%NSQX 0.0		     
+
+;
+
+@V 1 36 0
+CS_Panel_Odblokovany	32	VAR_GLOBAL	@TYP:1
+%NSQX 0.1		     
+
+;
+
+@V 1 37 0
+CS_Checker_Odblokovany	33	VAR_GLOBAL	@TYP:1
+%NSQX 0.2		     
+
+;
+
+@V 1 38 0
+DvereBunky_Zamknute	34	VAR_GLOBAL	@TYP:1
+%NSQX 0.3		     
+
+;
+
+@V 1 39 0
+SnimacKrytuLasera_Aktivny	35	VAR_GLOBAL	@TYP:1
+%NSQX 0.4		     
+
+;
+
+@V 1 40 0
+SnimacStatorPodLaserom_Aktivny	36	VAR_GLOBAL	@TYP:1
+%NSQX 0.5		     
+
+;
+
+@V 1 41 0
+VyblokovanieZamkov_Aktivne	37	VAR_GLOBAL	@TYP:1
+%NSQX 0.6		     
+
+;
+
+@V 1 42 0
+ZonaCS_Aktivna	38	VAR_GLOBAL	@TYP:1
+%NSQX 0.7		     
+
+;
+
+@V 1 43 0
+ZonaLaser_Aktivna	39	VAR_GLOBAL	@TYP:1
+%NSQX 1.0		     
+
+;
+
+@V 1 44 0
+ZonaVnutroBunky_Aktivna	40	VAR_GLOBAL	@TYP:1
+%NSQX 1.1		     
+
+;
+
+@V 1 46 0
+Status_ZonaCS_Aktivna	41	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 47 0
+Status_ZamkyVyblokovane	42	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 48 0
+Status_ZonaVnutroBunky_Aktivna	43	VAR_GLOBAL	@TYP:43
+		     
+
+;
+

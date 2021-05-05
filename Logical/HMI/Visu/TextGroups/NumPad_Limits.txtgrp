@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="NumPad_Limits">
+  <Property Name="Description" Value="Texts for min/max of Numpad Limit"/>
+  <Property Name="Index" Value="336"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="228431" Value="min:"/>
+    <Text ID="228432" Value="max:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="228431" Value=""/>
+    <Text ID="228432" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="228431" Value="0"/>
+    <Index ID="228432" Value="1"/>
+  </IndexMap>
+</TextGroup>

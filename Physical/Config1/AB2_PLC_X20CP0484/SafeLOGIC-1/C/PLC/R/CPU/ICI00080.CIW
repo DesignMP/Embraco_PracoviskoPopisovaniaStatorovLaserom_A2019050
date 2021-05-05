@@ -1,0 +1,8 @@
+(*
+QWS: 00005
+*)
+00001	00002	POE\Main\Main.gb
+00002	00020	POE\Main\VyblokovanieZamkov.gb
+00003	00108	POE\Main\ZonaCS.gb
+00004	00065	POE\Main\ZonaVnutroBunky.gb
+00005	00078	POE\Main\ZonaLaser.gb

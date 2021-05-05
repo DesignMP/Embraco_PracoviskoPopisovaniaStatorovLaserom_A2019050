@@ -1,0 +1,99 @@
+(************Vyèítavanie systémového èasu************************)
+VAR
+	Zapnutie_citania_casu : BOOL;
+	System_Cas_Datum : DTStructure;
+	Status_citania_casu : UINT;
+	Systemovy_Cas : Cas;
+	Systemovy_Datum : Datum;
+	Systemovy_Cas_STR : Cas_STR;
+	Systemovy_Datum_STR : Datum_STR;
+END_VAR
+VAR CONSTANT
+	SeparatorCasu : STRING[1] := ':';
+	SeparatorDatumu : STRING[1] := '.';
+END_VAR
+VAR
+	TextPole_Cas : STRING[4];
+	TextPole_Datum : STRING[8];
+	Hodina_String : STRING[2];
+	Minuta_String : STRING[2];
+	Mesiac_String : STRING[2];
+	Den_String : STRING[2];
+END_VAR
+(************Ovládanie Komunikácie s laserom*******************)
+VAR
+	Client : Client_typ;
+	Laser : Laser_typ;
+	Laser_DataSpravy : ARRAY[0..47] OF USINT := [2,4,65,1,41,11(0),1,9(0),2,5(0),3,9(0),4,4(0),3];
+	Laser_NazovSpravy : ARRAY[0..12] OF USINT := [2,10,87,0,108,105,110,2(101),109,2(0),3];
+	Laser_Sprava : ARRAY[0..50] OF USINT;
+	Laser_Odpoved : ARRAY[0..50] OF USINT;
+	OK_OdpovedNaDataSpravy : ARRAY[0..50] OF USINT := [240,2(32),55,57,127,2(48),56,48,2,4,65,1,6,0,5,5(1),3,28(0)];
+	OK_OdpovedNaVyberSpravy : ARRAY[0..50] OF USINT := [240,2(32),55,57,127,2(48),56,48,2(2),87,0,3,36(0)];
+END_VAR
+(**********Blikaèe*******************************)
+VAR
+	Blikac200ms : BOOL;
+	Blikac500ms : BOOL;
+	Blikac5s : BOOL;
+	Blikac1s : BOOL;
+END_VAR
+(*****************Alarmy*************************)
+VAR
+	Alarmy : ARRAY[0..100] OF BOOL;
+	NastalaPorucha : BOOL;
+	ZobrazSymbolAlarmu : BOOL;
+	PotvrdenieAlarmov : BOOL;
+	PoruchaVstupnehoOddelovaca : BOOL;
+	PoruchaPopisovania : BOOL;
+	PoruchaCheckera : BOOL;
+END_VAR
+(*************Premenne receptur**************)
+VAR
+	MpRecipeRegPar_0 : MpRecipeRegPar := (0);
+	MpRecipeXml_0 : MpRecipeXml := (0);
+	Receptura : ARRAY[0..150] OF ParametreRecepturTyp := [151((0))];
+	ZoznamReceptur : ARRAY[0..150] OF STRING[50] := [151('')];
+	UlozRecepturu : BOOL := FALSE;
+	NacitajRecepturu : BOOL;
+	NazovStatora : STRING[50] := '';
+	BOM_kod_Statora : STRING[7];
+	ZvolenyNazovStatora : STRING[50];
+	ZvolenyBOM_kod_Statora : STRING[7];
+END_VAR
+(**********Premenne uzivatelov********************************)
+VAR
+	MpRecipeXml_1 : MpRecipeXml := (0);
+	MpRecipeRegPar_1 : MpRecipeRegPar := (0);
+	Uzivatel : ARRAY[0..50] OF ParametreUzivatelovTyp;
+	ZoznamUzivatelov : ARRAY[0..50] OF STRING[50] := [51('')];
+	MenoUzivatela : STRING[50];
+	HesloUzivatela : STRING[50];
+	UrovenUzivatela : UINT;
+	ZadaneMenoUzivatela : STRING[50];
+	ZadaneHesloUzivatela : STRING[50];
+	ZvolenyUzivatel : STRING[50];
+	ZvolenaUroven : UINT;
+	TP_ZobrazPopUpPrihlasenie : USINT;
+	UlozUzivatelov : BOOL;
+	PrihlasUzivatela : BOOL;
+	VymazUzivatela : BOOL;
+	OdhlasUzivatela : BOOL;
+	SC_Uzivatelia : SequenceControlTyp;
+END_VAR
+(************Všeobecné premenné********************************)
+VAR
+	Safety : Safety_typ;
+	Vizu : Vizualizacia_typ;
+	Zariadenie : Zariadenie_typ;
+	SC_VstupnyOddelovac : SequenceControlTyp;
+	VstupnyOddelovac : VstupnyOddelovac_typ;
+	SC_Popisovanie : SequenceControlTyp;
+	Popisovanie : Popisovanie_typ;
+	SC_Checker : SequenceControlTyp;
+	Checker : Checker_typ;
+	QR_Kod : QRkod_typ;
+END_VAR
+VAR RETAIN
+	Stav_StatorPopisany : BOOL;
+END_VAR

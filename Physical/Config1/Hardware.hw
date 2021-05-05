@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="AB1_ProfinetMaster" Type="X20IF10E1-1" Version="1.3.0.0">
+    <Connection Connector="SS" TargetModule="X20BB62" TargetConnector="SS1" />
+    <Connector Name="IF1">
+      <Parameter ID="DtmRef" Value="FBDIF.Hilscher.PNIOControllerDTM2.NETX 100 RE/PNM" />
+      <Parameter ID="DtmId" Value="eaec8113-ff32-47e2-8a6f-5691c0f842d4" />
+    </Connector>
+    <Parameter ID="ConfigFile" Value="AB1_ProfinetMaster.dtm" />
+    <Parameter ID="ConfigModule" Value="asnxdb1" />
+  </Module>
+  <Module Name="AB2_PLC_X20CP0484" Type="X20CP0484" Version="1.4.2.0">
+    <Connection Connector="SL" TargetModule="X20BB62" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.1.2" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="0" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncMaxConnections1" Value="2" />
+      <Parameter ID="VncRefreshRate1" Value="100" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="Embraco_PracoviskoPopisovaniaLaserom_Config1" />
+    <Parameter ID="UserPartitionSize" Value="500" />
+    <Parameter ID="UserRamSize" Value="10000" />
+    <Parameter ID="RemMemSize" Value="20000" />
+    <Parameter ID="PermanentPvSize" Value="8000" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="AB2_PLC_X20CP0484.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic2Duration" Value="10000" />
+    <Parameter ID="Cyclic2Tolerance" Value="0" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="HDD" />
+    <Parameter ID="FileDevicePath1" Value="F:\" />
+    <Parameter ID="TimeZone" Value="145" />
+    <Parameter ID="ActivateSntpServer" Value="1" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="admin" />
+    <Parameter ID="FtpUserPassword1" Value="ZFxZtXmikHeuYrBmUWmLP4sX8b0VA9Bjt2tGuquGkoo=" />
+    <Parameter ID="FtpUserSalt1" Value="qbFABSSZ" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+  </Module>
+  <Module Name="AB3_NapajaniePLC" Type="X20PS9600" Version="1.5.0.0">
+    <Connection Connector="PS" TargetModule="X20BB62" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="AB4_SafetyMaster" Type="X20SLX842" Version="1.10.12.1">
+    <Connection Connector="SS1" TargetModule="X20TB52" TargetConnector="SS" />
+    <Connection Connector="SS2" TargetModule="X20TB52a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM33" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="SafeProject" Value="SafeLOGIC-1" />
+    <Parameter ID="SafeDesigner" Value="4.3.5.3" />
+    <Parameter ID="DigitalOutput01" Value="viaSafeLOGIC" />
+    <Parameter ID="DigitalOutput02" Value="viaSafeLOGIC" />
+    <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />
+    <Parameter ID="DigitalOutput04" Value="viaSafeLOGIC" />
+    <Parameter ID="DigitalOutput05" Value="viaSafeLOGIC" />
+    <Parameter ID="DigitalOutput06" Value="viaSafeLOGIC" />
+    <Parameter ID="UnsafeOutputBOOLs" Value="32" />
+    <Parameter ID="UnsafeInputBOOLs" Value="32" />
+  </Module>
+  <Module Name="AB5_16DI" Type="X20DIF371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="AB6_16DI" Type="X20DIF371" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="AB7_16DO" Type="X20DOF322" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="BC1_8DI/DO" Type="X67BC8331" Version="2.11.1.0">
+    <Connection Connector="PLK1" TargetModule="AB2_PLC_X20CP0484" TargetConnector="IF3">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+  </Module>
+  <Module Name="DI1_16DI" Type="X67DI1371.L08" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="XV/VT1" TargetConnector="X2X2">
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="DataMan_260" Type="FBD.Hilscher.PNIOGenDevDTM2.DataMan 260" Version="5.5.0" OrderNumber="DataMan 260" VendorAddress="dataman">
+    <Connection Connector="PN1" TargetModule="AB1_ProfinetMaster" TargetConnector="IF1" />
+    <Parameter ID="DtmId" Value="4941676e-6e57-439f-abc9-d0f1f6497b10" />
+    <Group ID="ChannelBlocks_47615121-fe6e-4591-b3b6-8465b3212ca9" Description="Acquisition Control &lt;Slot 1&gt;" />
+    <Group ID="IO_OutputImage_47615121-fe6e-4591-b3b6-8465b3212ca9" Description="1 Byte(s)" />
+    <Group ID="ChannelBlocks_d194d4db-42e7-41e5-a767-b87b0401a075" Description="Acquisition Status &lt;Slot 2&gt;" />
+    <Group ID="IO_InputImage_d194d4db-42e7-41e5-a767-b87b0401a075" Description="3 Byte(s)" />
+    <Group ID="ChannelBlocks_1f3ce926-3699-4ff7-ae20-f41f99e8e1a7" Description="Results Control &lt;Slot 3&gt;" />
+    <Group ID="IO_OutputImage_1f3ce926-3699-4ff7-ae20-f41f99e8e1a7" Description="1 Byte(s)" />
+    <Group ID="ChannelBlocks_275960ff-423a-4b85-9ae8-7b4c1d1c8472" Description="Results Status &lt;Slot 4&gt;" />
+    <Group ID="IO_InputImage_275960ff-423a-4b85-9ae8-7b4c1d1c8472" Description="1 Byte(s)" />
+    <Group ID="ChannelBlocks_ec76be99-af22-40a4-a52c-c51730de08a4" Description="Soft Event Control &lt;Slot 5&gt;" />
+    <Group ID="IO_InputImage_ec76be99-af22-40a4-a52c-c51730de08a4" Description="1 Byte(s)" />
+    <Group ID="IO_OutputImage_ec76be99-af22-40a4-a52c-c51730de08a4" Description="1 Byte(s)" />
+    <Group ID="ChannelBlocks_de08c721-900e-43fb-8e68-4cff8c152ca9" Description="User Data - 64 bytes &lt;Slot 6&gt;" />
+    <Group ID="IO_OutputImage_de08c721-900e-43fb-8e68-4cff8c152ca9" Description="68 Byte(s)" />
+    <Group ID="ChannelBlocks_b5868303-eee8-413e-96c2-c1ebf3a28649" Description="Result Data - 64 bytes &lt;Slot 7&gt;" />
+    <Group ID="IO_InputImage_b5868303-eee8-413e-96c2-c1ebf3a28649" Description="72 Byte(s)" />
+  </Module>
+  <Module Name="SI1" Type="X67SI8103" Version="1.10.12.0">
+    <Connection Connector="X2X1" TargetModule="DI1_16DI" TargetConnector="X2X2">
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="TP1" Type="6PPT30.0702-20B" Version="1.3.3.0">
+    <Connection Connector="ETH1" TargetModule="AB2_PLC_X20CP0484" TargetConnector="IF2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Parameter ID="Terminal" Value="true" />
+    <Parameter ID="Startmode" Value="1" />
+    <Parameter ID="Mode" Value="Manual" />
+    <Parameter ID="InternetAddress" Value="192.168.1.3" />
+    <Parameter ID="DefaultGateway" Value="192.168.1.1" />
+    <Parameter ID="Subnetmask" Value="255.255.255.0" />
+    <Parameter ID="ActivateNtpClient" Value="1" />
+    <Parameter ID="NtpServer1" Value="192.168.1.2" />
+    <Parameter ID="TimeZone" Value="145" />
+    <Parameter ID="SelectedFavoriteVNC" Value="192.168.1.2:5900" />
+    <Parameter ID="PasswordVNC" Value="" />
+    <Parameter ID="PasswordCIFS" Value="" />
+    <Parameter ID="PasswordService" Value="" />
+    <Parameter ID="VncKeyMappingFile" Value="VC\6PPT30.0702-20B.dis" />
+    <Parameter ID="VncRefreshRate" Value="100" />
+  </Module>
+  <Module Name="X20BB62" Type="X20BB62" Version="1.1.1.0" />
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM33" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM33" Type="X20BM33" Version="1.0.0.6">
+    <Connection Connector="X2X1" TargetModule="X20BB62" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB1F" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F1" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F2" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB52" Type="X20TB52" Version="1.0.0.2" />
+  <Module Name="X20TB52a" Type="X20TB52" Version="1.0.0.2" />
+  <Module Name="XV/VT1" Type="7XV116.50-62" Version="1.2.0.0">
+    <Connection Connector="X2X1" TargetModule="BC1_8DI/DO" TargetConnector="IF1">
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+</Hardware>

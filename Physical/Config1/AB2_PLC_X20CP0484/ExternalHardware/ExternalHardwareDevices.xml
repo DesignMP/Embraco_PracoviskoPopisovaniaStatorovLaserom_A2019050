@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBD.Hilscher.PNIOGenDevDTM2.DataMan 260" Version="5.5.0" OrderNumber="DataMan 260">
+      <SourceFile OriginalFile="GSDML-V2.31-Cognex-DataMan-20170215.xml" TranslationFile="SNR4ULX0.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

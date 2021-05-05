@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StavZariadenia">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="337"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="228438" Value="Zariadenie vypnuté"/>
+    <Text ID="228439" Value="Prebieha inicializácia"/>
+    <Text ID="228440" Value="Prebieha výroba"/>
+    <Text ID="228441" Value="Prebieha ukončenie výroby"/>
+    <Text ID="228442" Value="Porucha na zariadení"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="228438" Value=""/>
+    <Text ID="228439" Value=""/>
+    <Text ID="228440" Value=""/>
+    <Text ID="228441" Value=""/>
+    <Text ID="228442" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="228438" Value="0"/>
+    <Index ID="228439" Value="1"/>
+    <Index ID="228440" Value="2"/>
+    <Index ID="228441" Value="3"/>
+    <Index ID="228442" Value="4"/>
+  </IndexMap>
+</TextGroup>

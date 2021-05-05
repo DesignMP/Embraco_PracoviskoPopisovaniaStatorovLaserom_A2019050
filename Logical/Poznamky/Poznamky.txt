@@ -1,0 +1,21 @@
+Heslo do safety - vlmardo
+Heslo HMI: login - admin
+		   heslo - vlmardo	
+Takt time - 7s
+
+Obsah QR kódu:
+- BOM materiálu - napr.1355470 z receptury
+- Dátum výroby - napr.17042019 z PLC
+- Èas výroby - napr.1107;1045 z PLC
+- Èíslo výr. linky - StatorEM
+Vedla kódu posledné štvorèíslie BOM materiálu - napr.5470
+Názov statora napr.MAF4578
+
+Názov správy lineem
+
+IP adresa PLC 192.168.1.2
+IP adresa HMI 192.168.1.3
+IP adresa Lasera 192.168.1.4
+KOM port laser 3490
+
+IP adresa Checker 192.168.2.2

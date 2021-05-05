@@ -1,0 +1,27 @@
+
+PROGRAM _INIT
+	Zapnutie_citania_casu:=1;
+	 
+END_PROGRAM
+
+PROGRAM _CYCLIC
+	DTStructureGetTime(Zapnutie_citania_casu, ADR(System_Cas_Datum), Status_citania_casu);
+	 
+	
+	Systemovy_Cas.Hodina:= System_Cas_Datum.hour;
+	Systemovy_Cas.Minuta:= System_Cas_Datum.minute;
+	Systemovy_Cas.Sekunda:= System_Cas_Datum.second;
+	
+	Systemovy_Datum.Den:= System_Cas_Datum.day;
+	Systemovy_Datum.Mesiac:= System_Cas_Datum.month;
+	Systemovy_Datum.Rok:= System_Cas_Datum.year;
+	
+	
+	
+END_PROGRAM
+
+PROGRAM _EXIT
+	(* Insert code here *)
+	 
+END_PROGRAM
+

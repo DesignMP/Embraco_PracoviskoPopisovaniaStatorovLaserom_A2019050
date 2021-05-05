@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.6.3.55 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">Vycitanie_casu</Object>
+    <Object Type="Program" Language="IEC">EthernetovaKomunikacia</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,7 @@
+VAR
+	i : INT;
+	CasPotvrdeniaAlarmu : TON;
+	ZapniHukacku : BOOL;
+	CasMeraniaTlakuVzduchu : TON;
+	CasMeraniaModuluXV1 : TON;
+END_VAR

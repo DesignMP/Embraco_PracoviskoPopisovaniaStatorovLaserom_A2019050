@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.2.98"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Buttons_PageTexts">
+  <Property Name="Description" Value="Texts for elements on pages"/>
+  <Property Name="Index" Value="335"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="228395" Value="Contrast"/>
+    <Text ID="228396" Value="Touch Calibration"/>
+    <Text ID="228397" Value="Setup"/>
+    <Text ID="228398" Value="Home"/>
+    <Text ID="228399" Value="Service"/>
+    <Text ID="228400" Value="Brightness"/>
+    <Text ID="228401" Value="Example Frame"/>
+    <Text ID="228402" Value="History"/>
+    <Text ID="228403" Value="Select Language"/>
+    <Text ID="228404" Value="Touch Configuration"/>
+    <Text ID="228405" Value="Network Settings"/>
+    <Text ID="228406" Value="IP Address:"/>
+    <Text ID="228407" Value="Node Number:"/>
+    <Text ID="228408" Value="HH:MM:SS"/>
+    <Text ID="228409" Value="yyyy/mm/dd"/>
+    <Text ID="228410" Value="Time and Date"/>
+    <Text ID="228411" Value="Alarm"/>
+    <Text ID="228412" Value="Trend"/>
+    <Text ID="228413" Value="Diagnostics"/>
+    <Text ID="228414" Value="Room temp."/>
+    <Text ID="228415" Value="Cpu temp."/>
+    <Text ID="228416" Value="Auto refresh"/>
+    <Text ID="228417" Value="Cursor control"/>
+    <Text ID="228418" Value="Cursor 1"/>
+    <Text ID="228419" Value="Cursor 2"/>
+    <Text ID="228420" Value="View all"/>
+    <Text ID="228421" Value="Time [s]"/>
+    <Text ID="228422" Value=""/>
+    <Text ID="228423" Value=""/>
+    <Text ID="228424" Value=""/>
+    <Text ID="228425" Value=""/>
+    <Text ID="228426" Value=""/>
+    <Text ID="228427" Value=""/>
+    <Text ID="228428" Value="Display Settings"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="228395" Value=""/>
+    <Text ID="228396" Value=""/>
+    <Text ID="228397" Value=""/>
+    <Text ID="228398" Value=""/>
+    <Text ID="228399" Value=""/>
+    <Text ID="228400" Value=""/>
+    <Text ID="228401" Value=""/>
+    <Text ID="228402" Value=""/>
+    <Text ID="228403" Value=""/>
+    <Text ID="228404" Value=""/>
+    <Text ID="228405" Value=""/>
+    <Text ID="228406" Value=""/>
+    <Text ID="228407" Value=""/>
+    <Text ID="228408" Value=""/>
+    <Text ID="228409" Value=""/>
+    <Text ID="228410" Value=""/>
+    <Text ID="228411" Value=""/>
+    <Text ID="228412" Value=""/>
+    <Text ID="228413" Value=""/>
+    <Text ID="228414" Value=""/>
+    <Text ID="228415" Value=""/>
+    <Text ID="228416" Value=""/>
+    <Text ID="228417" Value=""/>
+    <Text ID="228418" Value=""/>
+    <Text ID="228419" Value=""/>
+    <Text ID="228420" Value=""/>
+    <Text ID="228421" Value=""/>
+    <Text ID="228422" Value=""/>
+    <Text ID="228423" Value=""/>
+    <Text ID="228424" Value=""/>
+    <Text ID="228425" Value=""/>
+    <Text ID="228426" Value=""/>
+    <Text ID="228427" Value=""/>
+    <Text ID="228428" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="228395" Value="6010"/>
+    <Index ID="228396" Value="6009"/>
+    <Index ID="228397" Value="2"/>
+    <Index ID="228398" Value="1"/>
+    <Index ID="228399" Value="0"/>
+    <Index ID="228400" Value="6011"/>
+    <Index ID="228401" Value="1000"/>
+    <Index ID="228402" Value="6"/>
+    <Index ID="228403" Value="6000"/>
+    <Index ID="228404" Value="6001"/>
+    <Index ID="228405" Value="6002"/>
+    <Index ID="228406" Value="6003"/>
+    <Index ID="228407" Value="6004"/>
+    <Index ID="228408" Value="6005"/>
+    <Index ID="228409" Value="6006"/>
+    <Index ID="228410" Value="6007"/>
+    <Index ID="228411" Value="5"/>
+    <Index ID="228412" Value="3"/>
+    <Index ID="228413" Value="7"/>
+    <Index ID="228414" Value="1200"/>
+    <Index ID="228415" Value="1201"/>
+    <Index ID="228416" Value="1202"/>
+    <Index ID="228417" Value="1203"/>
+    <Index ID="228418" Value="1204"/>
+    <Index ID="228419" Value="1205"/>
+    <Index ID="228420" Value="1206"/>
+    <Index ID="228421" Value="1207"/>
+    <Index ID="228422" Value="1208"/>
+    <Index ID="228423" Value="1209"/>
+    <Index ID="228424" Value="1210"/>
+    <Index ID="228425" Value="1211"/>
+    <Index ID="228426" Value="1212"/>
+    <Index ID="228427" Value="8"/>
+    <Index ID="228428" Value="6008"/>
+  </IndexMap>
+</TextGroup>
