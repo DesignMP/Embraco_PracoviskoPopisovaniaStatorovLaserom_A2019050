@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_1_
-#define _BUR_1620202168_1_
+#ifndef _BUR_1620291505_1_
+#define _BUR_1620291505_1_
 
 #include <bur/plctypes.h>
 
@@ -28,7 +28,7 @@ typedef struct Cas_STR
 typedef struct Datum_STR
 {	plcstring Den[3];
 	plcstring Mesiac[3];
-	plcstring Rok[5];
+	plcstring Rok[3];
 } Datum_STR;
 
 typedef struct Client_typ
@@ -396,8 +396,8 @@ typedef struct Vizualizacia_typ
 
 typedef struct QRkod_typ
 {	plcstring BOM_Statora[8];
-	plcstring DatumVyroby[9];
-	plcstring CasVyroby[5];
+	plcstring DatumVyroby[7];
+	plcstring CasVyroby[7];
 	plcstring NazovVyrobnejLinky[9];
 	plcstring BOM_PosledneZnaky[5];
 } QRkod_typ;
@@ -417,5 +417,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_1_ */
+#endif /* _BUR_1620291505_1_ */
 

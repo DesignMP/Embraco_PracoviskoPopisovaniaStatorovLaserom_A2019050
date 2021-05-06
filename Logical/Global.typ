@@ -19,7 +19,7 @@ TYPE
 	Datum_STR : 	STRUCT 
 		Den : STRING[2];
 		Mesiac : STRING[2];
-		Rok : STRING[4];
+		Rok : STRING[2];
 	END_STRUCT;
 END_TYPE
 
@@ -401,8 +401,8 @@ TYPE
 	END_STRUCT;
 	QRkod_typ : 	STRUCT 
 		BOM_Statora : STRING[7];
-		DatumVyroby : STRING[8];
-		CasVyroby : STRING[4];
+		DatumVyroby : STRING[6];
+		CasVyroby : STRING[6];
 		NazovVyrobnejLinky : STRING[8];
 		BOM_PosledneZnaky : STRING[4];
 	END_STRUCT;

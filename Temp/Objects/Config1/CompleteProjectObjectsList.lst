@@ -16,13 +16,13 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="132259770898879252"
+    LastWriteTime="132647649706861067"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="132236506713830901"
+    LastWriteTime="132647629538987742"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Libraries\Package.pkg"
@@ -516,7 +516,7 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Variables.var"
     LogicalPath="Program.Popisovanie.Variables.var"
     Type="File"
-    LastWriteTime="132201141472284406"
+    LastWriteTime="132647664879493252"
     Private="true" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\OvlStopra.st"
@@ -534,7 +534,7 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\SpravaPreLaser.st"
     LogicalPath="Program.Popisovanie.SpravaPreLaser.st"
     Type="File"
-    LastWriteTime="132646092422657521"
+    LastWriteTime="132647688958098045"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\IEC.prg"
@@ -847,13 +847,13 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="132646010427641692"
+    LastWriteTime="132647607053359284"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="132646757642250779"
+    LastWriteTime="132647519937872728"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Cpu.pkg"
@@ -1121,6 +1121,6 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="132646757642400371"
+    LastWriteTime="132647519937992380"
     Private="false" />
 </Objects>

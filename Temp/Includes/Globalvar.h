@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_2_
-#define _BUR_1620202168_2_
+#ifndef _BUR_1620289861_1_
+#define _BUR_1620289861_1_
 
 #include <bur/plctypes.h>
 
@@ -78,8 +78,9 @@ _GLOBAL plcstring Den_String[3];
 _GLOBAL plcstring Mesiac_String[3];
 _GLOBAL plcstring Minuta_String[3];
 _GLOBAL plcstring Hodina_String[3];
-_GLOBAL plcstring TextPole_Datum[9];
-_GLOBAL plcstring TextPole_Cas[5];
+_GLOBAL plcstring Sekunda_String[3];
+_GLOBAL plcstring TextPole_Datum[7];
+_GLOBAL plcstring TextPole_Cas[7];
 _GLOBAL struct Datum_STR Systemovy_Datum_STR;
 _GLOBAL struct Cas_STR Systemovy_Cas_STR;
 _GLOBAL struct Datum Systemovy_Datum;
@@ -103,5 +104,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipe.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_2_ */
+#endif /* _BUR_1620289861_1_ */
 

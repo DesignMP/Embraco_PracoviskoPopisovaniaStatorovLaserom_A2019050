@@ -5,6 +5,6 @@ $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/SC/Types.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
 $(AS_PROJECT_PATH)/Logical/Program/Popisovanie/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
 $(AS_PROJECT_PATH)/Physical/Config1/AB2_PLC_X20CP0484/Cpu.per

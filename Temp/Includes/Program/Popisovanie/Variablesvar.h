@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_9_
-#define _BUR_1620202168_9_
+#ifndef _BUR_1620293027_1_
+#define _BUR_1620293027_1_
 
 #include <bur/plctypes.h>
 
@@ -13,10 +13,14 @@
 
 
 /* Variables */
+_BUR_LOCAL plcstring Rok_Cislica2[2];
+_BUR_LOCAL plcstring Rok_Cislica1[2];
+_BUR_LOCAL plcstring Rok_STRING[5];
+_BUR_LOCAL unsigned char Rok_PoleUSINT[4];
 _BUR_LOCAL unsigned char i;
 _BUR_LOCAL plcstring PosledneZnaky[5];
 _BUR_LOCAL unsigned long length;
-_BUR_LOCAL unsigned char PoleUSINT[20];
+_BUR_LOCAL unsigned char KodStatora_PoleUSINT[20];
 _BUR_LOCAL plcbit Zdvizku_ZASUN;
 _BUR_LOCAL plcbit Zdvizku_VYSUN;
 _BUR_LOCAL struct SequenceControlTyp SC_OvlZdvizky;
@@ -38,5 +42,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Popisovanie/Variables.var\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_9_ */
+#endif /* _BUR_1620293027_1_ */
 

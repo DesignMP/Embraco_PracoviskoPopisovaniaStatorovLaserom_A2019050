@@ -1,0 +1,23 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/Projekty BER/Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050/Physical/Config1/AB2_PLC_X20CP0484/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="CheckerKom" Source="Komunikacia_Checker.CheckerKomunikacia.prg" />
+      <Task Name="MeranieTak" Source="Program.MeranieTaktime.prg" />
+      <Task Name="VstupnyOdd" Source="Program.VstupnyOddelovac.prg" />
+      <Task Name="Popisovani" Source="Program.Popisovanie.prg" />
+      <Task Name="Checker" Source="Program.Checker.prg" />
+      <Task Name="Main" Source="Program.Main.prg" />
+      <Task Name="Poruchy_Si" Source="Program.Poruchy_Signalizacie.prg" />
+      <Task Name="OvladanieG" Source="HMI.OvladanieGrafiky.prg" />
+      <Task Name="Vycitanie_" Source="Komunikacia_Laser.Vycitanie_casu.prg" />
+      <Task Name="Ethernetov" Source="Komunikacia_Laser.EthernetovaKomunikacia.prg" />
+      <Task Name="Receptury" Source="Receptury.Receptury.prg" />
+      <Task Name="Prihlasova" Source="PrihlasovaciSystem.PrihlasovaciSystem.prg" />
+      <Task Name="Blikanie20" Source="Blikace.Blikanie200ms.prg" />
+      <Task Name="Blikanie50" Source="Blikace.Blikanie500ms.prg" />
+      <Task Name="Blikanie1s" Source="Blikace.Blikanie1s.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

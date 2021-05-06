@@ -670,16 +670,24 @@ brsstrcat(((unsigned long)(&Systemovy_Datum_STR.Mesiac)),((unsigned long)(&Mesia
 usint2str(System_Cas_Datum.month,Systemovy_Datum_STR.Mesiac,3);
 }
 
-uint2str(System_Cas_Datum.year,Systemovy_Datum_STR.Rok,5);
+uint2str(System_Cas_Datum.year,Rok_STRING,5);
+brsmemcpy(((unsigned long)(&Rok_PoleUSINT)),((unsigned long)(&Rok_STRING)),5);
+
+brsmemcpy(((unsigned long)(&Rok_Cislica1)),((unsigned long)(&Rok_PoleUSINT[CheckBounds(2,0,3)])),1);
+brsmemcpy(((unsigned long)(&Rok_Cislica2)),((unsigned long)(&Rok_PoleUSINT[CheckBounds(3,0,3)])),1);
+
+{int zzIndex; plcstring* zzLValue=(plcstring*)Systemovy_Datum_STR.Rok; plcstring* zzRValue=(plcstring*)""; for(zzIndex=0; zzIndex<0l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+brsstrcat(((unsigned long)(&Systemovy_Datum_STR.Rok)),((unsigned long)(&Rok_Cislica1)));
+brsstrcat(((unsigned long)(&Systemovy_Datum_STR.Rok)),((unsigned long)(&Rok_Cislica2)));
 
 {int zzIndex; plcstring* zzLValue=(plcstring*)TextPole_Datum; plcstring* zzRValue=(plcstring*)""; for(zzIndex=0; zzIndex<0l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-brsstrcat(((unsigned long)(&TextPole_Datum)),((unsigned long)(&Systemovy_Datum_STR.Den)));
+brsstrcat(((unsigned long)(&TextPole_Datum)),((unsigned long)(&Systemovy_Datum_STR.Rok)));
 
 brsstrcat(((unsigned long)(&TextPole_Datum)),((unsigned long)(&Systemovy_Datum_STR.Mesiac)));
 
-brsstrcat(((unsigned long)(&TextPole_Datum)),((unsigned long)(&Systemovy_Datum_STR.Rok)));
+brsstrcat(((unsigned long)(&TextPole_Datum)),((unsigned long)(&Systemovy_Datum_STR.Den)));
 
-{int zzIndex; plcstring* zzLValue=(plcstring*)QR_Kod.DatumVyroby; plcstring* zzRValue=(plcstring*)TextPole_Datum; for(zzIndex=0; zzIndex<8l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+{int zzIndex; plcstring* zzLValue=(plcstring*)QR_Kod.DatumVyroby; plcstring* zzRValue=(plcstring*)TextPole_Datum; for(zzIndex=0; zzIndex<6l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 
 
 
@@ -703,12 +711,23 @@ brsstrcat(((unsigned long)(&Systemovy_Cas_STR.Minuta)),((unsigned long)(&Minuta_
 usint2str(System_Cas_Datum.minute,Systemovy_Cas_STR.Minuta,3);
 }
 
+
+if((((unsigned long)(unsigned char)System_Cas_Datum.second<(unsigned long)(unsigned char)10))){
+brsstrcpy(((unsigned long)(&Systemovy_Cas_STR.Sekunda)),((unsigned long)(&"0")));
+usint2str(System_Cas_Datum.second,Sekunda_String,3);
+brsstrcat(((unsigned long)(&Systemovy_Cas_STR.Sekunda)),((unsigned long)(&Sekunda_String)));
+}else{
+usint2str(System_Cas_Datum.second,Systemovy_Cas_STR.Sekunda,3);
+}
+
+
 {int zzIndex; plcstring* zzLValue=(plcstring*)TextPole_Cas; plcstring* zzRValue=(plcstring*)""; for(zzIndex=0; zzIndex<0l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 brsstrcat(((unsigned long)(&TextPole_Cas)),((unsigned long)(&Systemovy_Cas_STR.Hodina)));
 
 brsstrcat(((unsigned long)(&TextPole_Cas)),((unsigned long)(&Systemovy_Cas_STR.Minuta)));
+brsstrcat(((unsigned long)(&TextPole_Cas)),((unsigned long)(&Systemovy_Cas_STR.Sekunda)));
 
-{int zzIndex; plcstring* zzLValue=(plcstring*)QR_Kod.CasVyroby; plcstring* zzRValue=(plcstring*)TextPole_Cas; for(zzIndex=0; zzIndex<4l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+{int zzIndex; plcstring* zzLValue=(plcstring*)QR_Kod.CasVyroby; plcstring* zzRValue=(plcstring*)TextPole_Cas; for(zzIndex=0; zzIndex<6l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 
 
 
@@ -723,14 +742,14 @@ brsstrcat(((unsigned long)(&TextPole_Cas)),((unsigned long)(&Systemovy_Cas_STR.M
 
 (length=brsstrlen(((unsigned long)(&ZvolenyBOM_kod_Statora))));
 if((((unsigned long)length>=(unsigned long)4))){
-brsmemcpy(((unsigned long)(&PoleUSINT)),((unsigned long)(&ZvolenyBOM_kod_Statora)),8);
-(i=PoleUSINT[CheckBounds((length-4),0,19)]);
+brsmemcpy(((unsigned long)(&KodStatora_PoleUSINT)),((unsigned long)(&ZvolenyBOM_kod_Statora)),8);
+(i=KodStatora_PoleUSINT[CheckBounds((length-4),0,19)]);
 brsstrcpy(((unsigned long)(&PosledneZnaky)),((unsigned long)(&i)));
-(i=PoleUSINT[CheckBounds((length-3),0,19)]);
+(i=KodStatora_PoleUSINT[CheckBounds((length-3),0,19)]);
 brsstrcat(((unsigned long)(&PosledneZnaky)),((unsigned long)(&i)));
-(i=PoleUSINT[CheckBounds((length-2),0,19)]);
+(i=KodStatora_PoleUSINT[CheckBounds((length-2),0,19)]);
 brsstrcat(((unsigned long)(&PosledneZnaky)),((unsigned long)(&i)));
-(i=PoleUSINT[CheckBounds((length-1),0,19)]);
+(i=KodStatora_PoleUSINT[CheckBounds((length-1),0,19)]);
 brsstrcat(((unsigned long)(&PosledneZnaky)),((unsigned long)(&i)));
 }
 
@@ -740,8 +759,8 @@ brsstrcat(((unsigned long)(&PosledneZnaky)),((unsigned long)(&i)));
 
 
 brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(8,0,47)])),((unsigned long)(&QR_Kod.BOM_Statora)),7);
-brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(17,0,47)])),((unsigned long)(&QR_Kod.DatumVyroby)),8);
-brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(27,0,47)])),((unsigned long)(&QR_Kod.CasVyroby)),4);
+brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(17,0,47)])),((unsigned long)(&QR_Kod.DatumVyroby)),6);
+brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(25,0,47)])),((unsigned long)(&QR_Kod.CasVyroby)),6);
 brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(33,0,47)])),((unsigned long)(&QR_Kod.NazovVyrobnejLinky)),8);
 brsmemcpy(((unsigned long)(&Laser_DataSpravy[CheckBounds(43,0,47)])),((unsigned long)(&QR_Kod.BOM_PosledneZnaky)),4);
 
@@ -821,5 +840,7 @@ __asm__(".ascii \"iecfile \\\"Temp/Objects/Config1/AB2_PLC_X20CP0484/Popisovani/
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");
+__asm__(".ascii \"plcdata_const 'Rok_PoleUSINT'\\n\"");
+__asm__(".ascii \"plcdata_const 'Rok_STRING'\\n\"");
 __asm__(".ascii \"plcdata_const 'ZvolenyBOM_kod_Statora'\\n\"");
 __asm__(".previous");

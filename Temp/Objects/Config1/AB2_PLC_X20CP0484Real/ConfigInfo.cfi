@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.5.60 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="CheckerKom"
+      Disable="false"
+      Source="Komunikacia_Checker.CheckerKomunikacia"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\CheckerKom\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Checker\CheckerKomunikacia\Variables.var" />
+    </Task>
+    <Task
+      Name="MeranieTak"
+      Disable="false"
+      Source="Program.MeranieTaktime"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\MeranieTak\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\MeranieTaktime\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="VstupnyOdd"
+      Disable="false"
+      Source="Program.VstupnyOddelovac"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\VstupnyOdd\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\VstupnyOddelovac\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\VstupnyOdd\OvlStoprov.st.var" />
+    </Task>
+    <Task
+      Name="Popisovani"
+      Disable="false"
+      Source="Program.Popisovanie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\OvlStopra.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\OvlZdvizky.st.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\SpravaPreLaser.st.var" />
+    </Task>
+    <Task
+      Name="Checker"
+      Disable="false"
+      Source="Program.Checker"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Checker\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Checker\OvlStoprov.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Main"
+      Disable="false"
+      Source="Program.Main"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Main\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Main\Variables.var" />
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Main\OvlSafety.st.var" />
+    </Task>
+    <Task
+      Name="Poruchy_Si"
+      Disable="false"
+      Source="Program.Poruchy_Signalizacie"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Poruchy_Si\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Poruchy_Signalizacie\Variables.var" />
+    </Task>
+    <Task
+      Name="OvladanieG"
+      Disable="false"
+      Source="HMI.OvladanieGrafiky"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\OvladanieG\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\HMI\OvladanieGrafiky\Variables.var" />
+    </Task>
+    <Task
+      Name="Vycitanie_"
+      Disable="false"
+      Source="Komunikacia_Laser.Vycitanie_casu"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Vycitanie_\citanie_casu_z_PLC.ab.var" />
+    </Task>
+    <Task
+      Name="Ethernetov"
+      Disable="false"
+      Source="Komunikacia_Laser.EthernetovaKomunikacia"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Ethernetov\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Komunikacia_Laser\EthernetovaKomunikacia\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="Receptury"
+      Disable="false"
+      Source="Receptury.Receptury"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Receptury\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Receptury\Receptury\Variables.var" />
+    </Task>
+    <Task
+      Name="Prihlasova"
+      Disable="false"
+      Source="PrihlasovaciSystem.PrihlasovaciSystem"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Prihlasova\Main.st.var" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Types.typ" />
+      <File
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\PrihlasovaciSystem\PrihlasovaciSystem\Variables.var" />
+    </Task>
+    <Task
+      Name="Blikanie20"
+      Disable="false"
+      Source="Blikace.Blikanie200ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Blikanie20\Blikanie200ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6">
+    <Task
+      Name="Blikanie50"
+      Disable="false"
+      Source="Blikace.Blikanie500ms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Blikanie50\Blikanie500ms.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#7">
+    <Task
+      Name="Blikanie1s"
+      Disable="false"
+      Source="Blikace.Blikanie1s"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Objects\Config1\AB2_PLC_X20CP0484\Blikanie1s\Blikanie1s.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

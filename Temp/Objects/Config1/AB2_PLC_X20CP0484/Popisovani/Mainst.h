@@ -80,7 +80,7 @@ typedef struct Cas_STR
 typedef struct Datum_STR
 {	plcstring Den[3];
 	plcstring Mesiac[3];
-	plcstring Rok[5];
+	plcstring Rok[3];
 } Datum_STR;
 #endif
 
@@ -464,8 +464,8 @@ typedef struct Vizualizacia_typ
 #define __AS__TYPE_QRkod_typ
 typedef struct QRkod_typ
 {	plcstring BOM_Statora[8];
-	plcstring DatumVyroby[9];
-	plcstring CasVyroby[5];
+	plcstring DatumVyroby[7];
+	plcstring CasVyroby[7];
 	plcstring NazovVyrobnejLinky[9];
 	plcstring BOM_PosledneZnaky[5];
 } QRkod_typ;
@@ -525,15 +525,20 @@ _BUR_LOCAL plcbit StoperZdvizky_ZASUN;
 _BUR_LOCAL SequenceControlTyp SC_OvlZdvizky;
 _BUR_LOCAL plcbit Zdvizku_VYSUN;
 _BUR_LOCAL plcbit Zdvizku_ZASUN;
-_BUR_LOCAL unsigned char PoleUSINT[20];
+_BUR_LOCAL unsigned char KodStatora_PoleUSINT[20];
 _BUR_LOCAL unsigned long length;
 _BUR_LOCAL plcstring PosledneZnaky[5];
 _BUR_LOCAL unsigned char i;
+_BUR_LOCAL unsigned char Rok_PoleUSINT[4];
+_BUR_LOCAL plcstring Rok_STRING[5];
+_BUR_LOCAL plcstring Rok_Cislica1[2];
+_BUR_LOCAL plcstring Rok_Cislica2[2];
 _GLOBAL DTStructure System_Cas_Datum;
 _GLOBAL Cas_STR Systemovy_Cas_STR;
 _GLOBAL Datum_STR Systemovy_Datum_STR;
-_GLOBAL plcstring TextPole_Cas[5];
-_GLOBAL plcstring TextPole_Datum[9];
+_GLOBAL plcstring TextPole_Cas[7];
+_GLOBAL plcstring TextPole_Datum[7];
+_GLOBAL plcstring Sekunda_String[3];
 _GLOBAL plcstring Hodina_String[3];
 _GLOBAL plcstring Minuta_String[3];
 _GLOBAL plcstring Mesiac_String[3];

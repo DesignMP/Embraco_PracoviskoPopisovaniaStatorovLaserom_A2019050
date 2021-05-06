@@ -4028,3 +4028,11 @@ $(TEMP_PATH_Visu)/Visu03.ccf: $(LIB_SHARED) $(SHARED_CCF) $(BMGRP_OBJECTS_Visu) 
 	$(LINK) '$@.lfl' -o '$@' -p Visu -lib '$(LIB_BMP_RES_Visu)' -P '$(AS_PROJECT_PATH)' -m 'bitmap resources' -profile 'False' -warningLevel2 -vcr 4720 -sfas
 # 03 Module END
 
+# Post Build Steps
+
+.PHONY : vcPostBuild_Visu
+
+vcPostBuild_Visu :
+	$(VCC) -pb -vcm '$(TEMP_PATH_Visu)/MODULEFILES.vcm' -fw '$(VCFIRMWAREPATH)' $(VCCFLAGS_Visu) -p Visu -vcr 4720 -sfas
+
+# Post Build Steps END

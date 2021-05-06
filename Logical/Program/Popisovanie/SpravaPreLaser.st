@@ -24,17 +24,25 @@ ACTION SpravaPreLaser:
 	ELSE
 		Systemovy_Datum_STR.Mesiac:= USINT_TO_STRING(System_Cas_Datum.month);
 	END_IF	
-	//Rok//
-	Systemovy_Datum_STR.Rok:= UINT_TO_STRING(System_Cas_Datum.year);
+    //Rok//
+    Rok_STRING:= UINT_TO_STRING(System_Cas_Datum.year);
+    brsmemcpy(ADR(Rok_PoleUSINT),ADR(Rok_STRING),SIZEOF(Rok_STRING));
+	
+    brsmemcpy(ADR(Rok_Cislica1),ADR(Rok_PoleUSINT[2]),SIZEOF(Rok_PoleUSINT[2]));
+    brsmemcpy(ADR(Rok_Cislica2),ADR(Rok_PoleUSINT[3]),SIZEOF(Rok_PoleUSINT[3]));
+              
+    Systemovy_Datum_STR.Rok:= '';
+    brsstrcat(ADR(Systemovy_Datum_STR.Rok),ADR(Rok_Cislica1));
+    brsstrcat(ADR(Systemovy_Datum_STR.Rok),ADR(Rok_Cislica2));
 	
 	TextPole_Datum:='';
-	brsstrcat(ADR(TextPole_Datum),ADR(Systemovy_Datum_STR.Den));
-	(*brsstrcat(ADR(TextPole_Datum),ADR(SeparatorDatumu));*)
-	brsstrcat(ADR(TextPole_Datum),ADR(Systemovy_Datum_STR.Mesiac));
-	(*brsstrcat(ADR(TextPole_Datum),ADR(SeparatorDatumu));*)
 	brsstrcat(ADR(TextPole_Datum),ADR(Systemovy_Datum_STR.Rok));
+    (*brsstrcat(ADR(TextPole_Datum),ADR(SeparatorDatumu));*)
+    brsstrcat(ADR(TextPole_Datum),ADR(Systemovy_Datum_STR.Mesiac));
+    (*brsstrcat(ADR(TextPole_Datum),ADR(SeparatorDatumu));*)
+    brsstrcat(ADR(TextPole_Datum),ADR(Systemovy_Datum_STR.Den));
 	
-	QR_Kod.DatumVyroby:= TextPole_Datum;  //8 znakov
+    QR_Kod.DatumVyroby:= TextPole_Datum;  //8 znakov
 	
 	
 	
@@ -58,12 +66,23 @@ ACTION SpravaPreLaser:
 		Systemovy_Cas_STR.Minuta:= USINT_TO_STRING(System_Cas_Datum.minute);
 	END_IF	
 	
+    //Sekunda//
+    IF System_Cas_Datum.second < 10 THEN
+        brsstrcpy(ADR(Systemovy_Cas_STR.Sekunda),ADR('0'));
+        Sekunda_String:= USINT_TO_STRING(System_Cas_Datum.second);
+        brsstrcat(ADR(Systemovy_Cas_STR.Sekunda),ADR(Sekunda_String));
+    ELSE
+        Systemovy_Cas_STR.Sekunda:= USINT_TO_STRING(System_Cas_Datum.second);
+    END_IF
+        
+    
 	TextPole_Cas:='';
 	brsstrcat(ADR(TextPole_Cas),ADR(Systemovy_Cas_STR.Hodina));
 	(*brsstrcat(ADR(TextPole_Cas),ADR(SeparatorCasu));*)
 	brsstrcat(ADR(TextPole_Cas),ADR(Systemovy_Cas_STR.Minuta));
-	
-	QR_Kod.CasVyroby:= TextPole_Cas;  //4 znaky
+	brsstrcat(ADR(TextPole_Cas),ADR(Systemovy_Cas_STR.Sekunda));
+    
+	QR_Kod.CasVyroby:= TextPole_Cas;  //6 znakov
 	
 	
 	
@@ -78,14 +97,14 @@ ACTION SpravaPreLaser:
 	
 	length := brsstrlen(ADR(ZvolenyBOM_kod_Statora)); //Zistí poèet znakov//
 	IF length >= 4 THEN
-		brsmemcpy(ADR(PoleUSINT),ADR(ZvolenyBOM_kod_Statora),SIZEOF(ZvolenyBOM_kod_Statora));
-		i := PoleUSINT[length-4];
+		brsmemcpy(ADR(KodStatora_PoleUSINT),ADR(ZvolenyBOM_kod_Statora),SIZEOF(ZvolenyBOM_kod_Statora));
+		i := KodStatora_PoleUSINT[length-4];
 		brsstrcpy(ADR(PosledneZnaky),ADR(i));
-		i := PoleUSINT[length-3];
+		i := KodStatora_PoleUSINT[length-3];
 		brsstrcat(ADR(PosledneZnaky),ADR(i));
-		i := PoleUSINT[length-2];
+		i := KodStatora_PoleUSINT[length-2];
 		brsstrcat(ADR(PosledneZnaky),ADR(i));
-		i := PoleUSINT[length-1];
+		i := KodStatora_PoleUSINT[length-1];
 		brsstrcat(ADR(PosledneZnaky),ADR(i));
 	END_IF
 	
@@ -95,8 +114,8 @@ ACTION SpravaPreLaser:
 	//***************************************Vytvorenie správy pre laser*******************************************
 	
 	brsmemcpy(ADR(Laser_DataSpravy[8]),ADR(QR_Kod.BOM_Statora),7);  			//Pole è.0
-	brsmemcpy(ADR(Laser_DataSpravy[17]),ADR(QR_Kod.DatumVyroby),8);				//Pole è.1
-	brsmemcpy(ADR(Laser_DataSpravy[27]),ADR(QR_Kod.CasVyroby),4);				//Pole è.2
+	brsmemcpy(ADR(Laser_DataSpravy[17]),ADR(QR_Kod.DatumVyroby),6);				//Pole è.1
+	brsmemcpy(ADR(Laser_DataSpravy[25]),ADR(QR_Kod.CasVyroby),6);				//Pole è.2
 	brsmemcpy(ADR(Laser_DataSpravy[33]),ADR(QR_Kod.NazovVyrobnejLinky),8);  	//Pole è.3
 	brsmemcpy(ADR(Laser_DataSpravy[43]),ADR(QR_Kod.BOM_PosledneZnaky),4);       //Pole è.4
 	

@@ -1,5 +1,5 @@
 export AS_SYSTEM_PATH := C:/BrAutomation/AS/System
-export AS_BIN_PATH := C:/BrAutomation/AS47/Bin-en
+export AS_BIN_PATH := C:/BrAutomation/AS47/bin-en
 export AS_INSTALL_PATH := C:/BrAutomation/AS47
 export AS_PATH := C:/BrAutomation/AS47
 export AS_VC_PATH := C:/BrAutomation/AS47/AS/VC
@@ -23,6 +23,7 @@ export AS_VERSION := 4.7.5.60\ SP
 
 default: \
 	$(AS_CPU_PATH)/Visu.br \
+	vcPostBuild_Visu \
 
 
 

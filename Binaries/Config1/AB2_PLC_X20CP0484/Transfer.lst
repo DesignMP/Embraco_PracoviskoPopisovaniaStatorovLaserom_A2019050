@@ -19,6 +19,7 @@
   <Operation Delete="MeranieTak.br"/>
   <Operation Delete="CheckerKom.br"/>
   <Operation Delete="Visu.br"/>
+  <Operation Delete="vcpfar00.br"/>
   <Operation Delete="AsSafety.br"/>
   <Operation Delete="vcchspot.br"/>
   <Operation Delete="vccshape.br"/>
@@ -41,7 +42,6 @@
   <Operation Delete="vcalarm.br"/>
   <Operation Delete="vctcal.br"/>
   <Operation Delete="vcmgr.br"/>
-  <Operation Delete="vcpfgen.br"/>
   <Operation Delete="vcpkat.br"/>
   <Operation Delete="vcfntttf.br"/>
   <Operation Delete="vcbclass.br"/>
@@ -108,7 +108,6 @@
   <Operation Download="vcbclass.br" Memory="UserROM"/>
   <Operation Download="vcfntttf.br" Memory="UserROM"/>
   <Operation Download="vcpkat.br" Memory="UserROM"/>
-  <Operation Download="vcpfgen.br" Memory="UserROM"/>
   <Operation Download="vcmgr.br" Memory="UserROM"/>
   <Operation Download="vctcal.br" Memory="UserROM"/>
   <Operation Download="vcalarm.br" Memory="UserROM"/>
@@ -131,6 +130,7 @@
   <Operation Download="vccshape.br" Memory="UserROM"/>
   <Operation Download="vcchspot.br" Memory="UserROM"/>
   <Operation Download="AsSafety.br" Memory="UserROM"/>
+  <Operation Download="vcpfar00.br" Memory="UserROM"/>
   <Operation Download="assl1.br" Memory="UserROM"/>
   <Operation Download="Visu.br" Memory="UserROM"/>
   <Operation Download="CheckerKom.br" Memory="UserROM"/>

@@ -26,6 +26,7 @@
     </Connector>
     <Parameter ID="ConfigurationID" Value="Embraco_PracoviskoPopisovaniaLaserom_Config1" />
     <Parameter ID="UserPartitionSize" Value="500" />
+    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="UserRamSize" Value="10000" />
     <Parameter ID="RemMemSize" Value="20000" />
     <Parameter ID="PermanentPvSize" Value="8000" />

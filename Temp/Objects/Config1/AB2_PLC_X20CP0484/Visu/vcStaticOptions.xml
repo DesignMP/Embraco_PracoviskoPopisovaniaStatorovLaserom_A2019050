@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Options>
   <WindowsTerminal>False</WindowsTerminal>
-  <IsArmTarget>True</IsArmTarget>
+  <IsArmTarget>False</IsArmTarget>
   <Bitmap32bit>
     <Bitmap>Source[local].Bitmap[A2018034_bunka1]</Bitmap>
     <Bitmap>Source[local].Bitmap[Alarm_140x140]</Bitmap>

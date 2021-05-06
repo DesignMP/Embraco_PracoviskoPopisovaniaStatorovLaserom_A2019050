@@ -5,8 +5,12 @@ VAR
 	SC_OvlZdvizky : SequenceControlTyp;
 	Zdvizku_VYSUN : BOOL;
 	Zdvizku_ZASUN : BOOL;
-	PoleUSINT : ARRAY[0..19] OF USINT;
+	KodStatora_PoleUSINT : ARRAY[0..19] OF USINT;
 	length : UDINT;
 	PosledneZnaky : STRING[4]; (*Posledné 4 znaky zo vstupu*)
 	i : USINT;
+	Rok_PoleUSINT : ARRAY[0..3] OF USINT;
+	Rok_STRING : STRING[4];
+	Rok_Cislica1 : STRING[1];
+	Rok_Cislica2 : STRING[1];
 END_VAR

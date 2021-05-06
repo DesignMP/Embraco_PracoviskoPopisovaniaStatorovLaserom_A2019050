@@ -13,8 +13,9 @@ VAR CONSTANT
 	SeparatorDatumu : STRING[1] := '.';
 END_VAR
 VAR
-	TextPole_Cas : STRING[4];
-	TextPole_Datum : STRING[8];
+	TextPole_Cas : STRING[6];
+	TextPole_Datum : STRING[6];
+	Sekunda_String : STRING[2];
 	Hodina_String : STRING[2];
 	Minuta_String : STRING[2];
 	Mesiac_String : STRING[2];
@@ -24,7 +25,7 @@ END_VAR
 VAR
 	Client : Client_typ;
 	Laser : Laser_typ;
-	Laser_DataSpravy : ARRAY[0..47] OF USINT := [2,4,65,1,41,11(0),1,9(0),2,5(0),3,9(0),4,4(0),3];
+	Laser_DataSpravy : ARRAY[0..47] OF USINT := [2,4,65,1,41,11(0),1,7(0),2,7(0),3,9(0),4,4(0),3];
 	Laser_NazovSpravy : ARRAY[0..12] OF USINT := [2,10,87,0,108,105,110,2(101),109,2(0),3];
 	Laser_Sprava : ARRAY[0..50] OF USINT;
 	Laser_Odpoved : ARRAY[0..50] OF USINT;
