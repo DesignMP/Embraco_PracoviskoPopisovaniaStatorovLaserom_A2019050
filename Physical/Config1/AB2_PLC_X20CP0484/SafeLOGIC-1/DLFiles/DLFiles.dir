@@ -1,9 +1,9 @@
 [Project]
 NumOfDownloadFiles=10
-Crc=C0AF6BE4
-LastChangeDate=1581511324
-LastChangeDateHumanReadable=12.02.2020    13:42:04
-LastChangeUser=Martin Dvoršèak
+Crc=1215097F
+LastChangeDate=1620652791
+LastChangeDateHumanReadable=10.05.2021    15:19:51
+LastChangeUser=Martin Dvorscak
 [Download]
 1=DLFiles\dlfile01.sos
 2=DLFiles\dlfile02.sos

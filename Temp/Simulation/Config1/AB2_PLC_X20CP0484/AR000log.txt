@@ -1,66 +1,21 @@
-Thu May  6 07:19:25 2021
+Mon May 10 14:54:58 2021
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Thu May  6 07:19:25 2021
+Mon May 10 14:54:58 2021
 No ARsim registration found!
 
-Thu May  6 07:19:25 2021
-InstanceName: 01d74237618b42b0
+Mon May 10 14:54:58 2021
+InstanceName: 01d7459baee32c50
 
-Thu May  6 07:19:25 2021
+Mon May 10 14:54:58 2021
 WorkingDirectory: D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Simulation\Config1\AB2_PLC_X20CP0484\
 
-Thu May  6 07:19:25 2021
+Mon May 10 14:54:58 2021
 COMMAND_COLDSTART
 
-Thu May  6 07:19:28 2021
+Mon May 10 14:55:01 2021
 Version: C4.72
 
-Thu May  6 09:38:32 2021
-COMMAND_TERMINATE
-
-Thu May  6 09:45:42 2021
-COMMAND_COLDSTART
-
-Thu May  6 09:45:44 2021
-Version: C4.72
-
-Thu May  6 09:46:06 2021
-COMMAND_TERMINATE
-
-Thu May  6 09:46:07 2021
-COMMAND_COLDSTART
-
-Thu May  6 09:46:09 2021
-Version: C4.72
-
-Thu May  6 11:03:36 2021
-COMMAND_TERMINATE
-
-Thu May  6 11:03:36 2021
-COMMAND_COLDSTART
-
-Thu May  6 11:03:38 2021
-Version: C4.72
-
-Thu May  6 12:05:00 2021
-COMMAND_TERMINATE
-
-Thu May  6 12:49:05 2021
-COMMAND_COLDSTART
-
-Thu May  6 12:49:07 2021
-Version: C4.72
-
-Thu May  6 12:49:16 2021
-COMMAND_TERMINATE
-
-Thu May  6 12:49:17 2021
-COMMAND_COLDSTART
-
-Thu May  6 12:49:20 2021
-Version: C4.72
-
-Thu May  6 12:50:31 2021
+Mon May 10 15:21:47 2021
 COMMAND_TERMINATE
 

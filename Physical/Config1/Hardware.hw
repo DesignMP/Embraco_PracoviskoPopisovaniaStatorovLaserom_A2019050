@@ -70,7 +70,7 @@
     <Connection Connector="SL" TargetModule="X20BM33" TargetConnector="SL1" />
     <Parameter ID="Supervision" Value="off" />
     <Parameter ID="SafeProject" Value="SafeLOGIC-1" />
-    <Parameter ID="SafeDesigner" Value="4.3.5.3" />
+    <Parameter ID="SafeDesigner" Value="4.4.0.0" />
     <Parameter ID="DigitalOutput01" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput02" Value="viaSafeLOGIC" />
     <Parameter ID="DigitalOutput03" Value="viaSafeLOGIC" />

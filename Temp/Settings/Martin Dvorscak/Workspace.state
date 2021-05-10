@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.7.5.60 SP?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\SpravaPreLaser.st" CaretLine="105" CaretColumn="39" FirstVisibleLine="96">
+  <TextEdit ID="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\SpravaPreLaser.st" CaretLine="105" CaretColumn="39" FirstVisibleLine="83">
     <Bookmarks />
   </TextEdit>
   <TreeView ID="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\Variables.var" EditColumn="1" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
@@ -19,7 +19,9 @@
       <Column Index="10" Width="0" Position="10" />
     </Columns>
     <ExpandedNodes />
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
 </State>

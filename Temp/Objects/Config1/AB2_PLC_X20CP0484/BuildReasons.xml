@@ -3,8 +3,20 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu\visu.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\arconfig.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\assl1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\safelogic-1.swt" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.c">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\program\popisovanie\spravaprelaser.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o">
@@ -34,11 +46,27 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu.br">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\ab2_plc_x20cp0484\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani.br" differs.
+    <BuildReason>ExternalCommand line differs.
 </BuildReason>
   </Rule>
 </BuildReasons>

@@ -534,7 +534,7 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Popisovanie\SpravaPreLaser.st"
     LogicalPath="Program.Popisovanie.SpravaPreLaser.st"
     Type="File"
-    LastWriteTime="132647688958098045"
+    LastWriteTime="132647689389404563"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Logical\Program\Checker\IEC.prg"
@@ -847,13 +847,13 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="132647607053359284"
+    LastWriteTime="132651250734851998"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="132647519937872728"
+    LastWriteTime="132651250740912100"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\Cpu.pkg"
@@ -1115,12 +1115,12 @@
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\SafeLOGIC-1.swt"
     LogicalPath="Config1.AB2_PLC_X20CP0484.SafeLOGIC-1.swt"
     Type="File"
-    LastWriteTime="132259850262960000"
+    LastWriteTime="132651264697170000"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="132647519937992380"
+    LastWriteTime="132651250741052043"
     Private="false" />
 </Objects>

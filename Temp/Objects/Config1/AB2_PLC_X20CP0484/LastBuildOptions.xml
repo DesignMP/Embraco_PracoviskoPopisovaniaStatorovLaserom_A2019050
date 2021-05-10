@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RuleSetOptions UsesUTCTime="True">
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\assl1.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\safelogic-1.swt" LastWriteTime="2020-02-12 12:43:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\safelogic-1.swt" LastWriteTime="2021-05-10 13:21:08" />
     <CommandLine Parameter="'$(AS_PROJECT_PATH)\Physical\Config1\AB2_PLC_X20CP0484\SafeLOGIC-1\DLFiles\assl1.bin' -o '$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\assl1.br' -t SafetyApp" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ashwac.br&quot; -L &quot;AsBrStr: V*, AsIecCon: V*, AsMath: V*, AsSafety: V*, AsTCP: V*, astime: V*, AsXml: V*, DataObj: V*, FileIO: V*, IecCheck: V*, MpBase: V5.08.0, MpRecipe: V5.08.1, operator: V*, runtime: V*, SC: V*, standard: V*, sys_lib: V*&quot; -c &quot;Config1&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -M IA32 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;AB2_PLC_X20CP0484&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\sysconf.br&quot; -T SG4 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <Prerequisite ID="c:\brautomation\as47\upgrades\modified.txt" LastWriteTime="2021-05-04 07:24:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;AB2_PLC_X20CP0484&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\asfw.br&quot; -T SG4 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <Prerequisite ID="c:\brautomation\as47\upgrades\modified.txt" LastWriteTime="2021-05-04 07:24:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;AB2_PLC_X20CP0484&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ashwd.br&quot; -T SG4 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\iomap.iom" LastWriteTime="2020-01-15 16:12:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\dtm\ab1_profinetmaster\ab1_profinetmaster.dtm" LastWriteTime="2020-12-02 12:10:32" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\AB2_PLC_X20CP0484\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /RT=1000 /AM=* /DAIP=192.168.0.2 /REPO=11160 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;AB2_PLC_X20CP0484&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\AB2_PLC_X20CP0484\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.50 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;AB2_PLC_X20CP0484&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B C4.72 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\udbdef.br">
     <Prerequisite ID="c:\brautomation\as47\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2019-10-10 08:00:38" />
@@ -35,7 +35,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\iomap.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\iomap.iom" LastWriteTime="2020-01-15 16:12:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\pvmap.vvm" LastWriteTime="2019-11-28 14:46:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-06 07:45:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-05-10 12:57:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\cpu.sw" LastWriteTime="2020-01-15 17:21:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\channelconfiguration.xml" LastWriteTime="2021-05-05 08:50:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2021-05-06 08:56:10" />
@@ -273,7 +273,7 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\popisovani.ox" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\popisovani.ox" LastWriteTime="2021-05-10 13:21:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\cpu.per" LastWriteTime="2020-01-16 12:18:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
@@ -291,7 +291,7 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\popisovani.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\a.out" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\a.out" LastWriteTime="2021-05-10 13:21:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -305,8 +305,8 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\Popisovani\Popisovani.ox&quot; -T SG4 -r Cyclic3 -G V6.3.0  -B C4.72 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-06 10:01:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.o" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-10 13:21:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.o" LastWriteTime="2021-05-10 13:21:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -323,7 +323,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\popisovanie\main.st" LastWriteTime="2020-02-12 10:52:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\popisovanie\ovlstopra.st" LastWriteTime="2019-12-03 12:07:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\popisovanie\ovlzdvizky.st" LastWriteTime="2020-02-12 10:45:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\popisovanie\spravaprelaser.st" LastWriteTime="2021-05-06 10:01:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\popisovanie\spravaprelaser.st" LastWriteTime="2021-05-06 10:02:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -338,7 +338,7 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.c" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.c" LastWriteTime="2021-05-10 13:21:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -354,7 +354,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.c">
     <Prerequisite ID="c:\brautomation\as47\as\gnuinst\v6.3.0\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="2019-10-10 08:00:38" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-10 13:21:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -369,8 +369,8 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.c" LastWriteTime="2021-05-06 10:01:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\_bur_pvdef.st.c" LastWriteTime="2021-05-10 13:21:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani\main.st.o" LastWriteTime="2021-05-10 13:21:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\ieccheck\ieccheck.fun" LastWriteTime="2019-11-29 07:37:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sc\sc.fun" LastWriteTime="2019-11-29 07:38:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2019-11-29 07:36:58" />
@@ -1339,14 +1339,14 @@
     <CommandLine Parameter="&quot;HMI.Visu&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\Visu.br&quot; -T SG4 -B C4.72 -c &quot;Config1&quot; -S &quot;AB2_PLC_X20CP0484&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -V &quot;V4.72.0&quot; -apj &quot;Embraco_PracoviskoPopisovaniaLaserom&quot; -v V1.00.0 -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -w2 -sfas" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu\visu.mak" LastWriteTime="2021-05-06 10:01:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu\visu.mak" LastWriteTime="2021-05-10 13:21:22" />
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\#cpu_vc.mak&quot; -k" />
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB2_PLC_X20CP0484\#cpu_tp.mak&quot; -k" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\ab2_plc_x20cp0484\transfer.lst">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\assl1.br" LastWriteTime="2021-05-05 08:50:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\assl1.br" LastWriteTime="2021-05-10 13:21:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\ashwac.br" LastWriteTime="2021-05-05 08:50:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\sysconf.br" LastWriteTime="2021-05-05 08:50:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\asfw.br" LastWriteTime="2021-05-05 08:50:54" />
@@ -1363,7 +1363,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\checkerkom.br" LastWriteTime="2021-05-06 08:58:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\meranietak.br" LastWriteTime="2021-05-06 08:58:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\vstupnyodd.br" LastWriteTime="2021-05-06 08:58:28" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani.br" LastWriteTime="2021-05-06 10:01:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\popisovani.br" LastWriteTime="2021-05-10 13:21:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\checker.br" LastWriteTime="2021-05-06 08:58:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\main.br" LastWriteTime="2021-05-06 08:58:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\poruchy_si.br" LastWriteTime="2021-05-06 08:58:28" />
@@ -1391,8 +1391,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\astcp.br" LastWriteTime="2019-11-23 02:20:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\asmath.br" LastWriteTime="2019-11-23 02:20:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\asnxdb1.br" LastWriteTime="2021-05-05 08:50:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu.br" LastWriteTime="2021-05-06 07:46:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab2_plc_x20cp0484\visu.br" LastWriteTime="2021-05-10 13:21:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab2_plc_x20cp0484\cpu.sw" LastWriteTime="2020-01-15 17:21:34" />
-    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\Embraco_PracoviskoPopisovaniaLaserom.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\BrAutomation\AS47&quot; -S &quot;AB2_PLC_X20CP0484&quot; -A &quot;X20CP04xx&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\AB2_PLC_X20CP0484\Cpu.sw&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /DAIP=192.168.0.2 /REPO=11160 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\Embraco_PracoviskoPopisovaniaLaserom.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\BrAutomation\AS47&quot; -S &quot;AB2_PLC_X20CP0484&quot; -A &quot;X20CP04xx&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\AB2_PLC_X20CP0484\Cpu.sw&quot; -Z &quot;mapp: 5.8.1, mappControl: 5.8.0, SafetyRelease: 1.10.0, UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.50 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>
