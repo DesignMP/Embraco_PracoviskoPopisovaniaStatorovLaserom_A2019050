@@ -1,55 +1,55 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Ethernetov 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=49 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                            Laser_Sprava                             USINT[0..50]    0 "                                                               *"    0    5   51    0    0    0         
-                         Laser_Sprava[0]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[1]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[2]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[3]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[4]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                            Laser_Sprava                             USINT[0..50]    0 "                                                               *"    0    5   51    0    0    1         
+                         Laser_Sprava[0]                                    USINT    0 "                                                               2"    1    5    1   10    0    0         
+                         Laser_Sprava[1]                                    USINT    0 "                                                               4"    1    5    1   10    0    0         
+                         Laser_Sprava[2]                                    USINT    0 "                                                              65"    1    5    1   10    0    0         
+                         Laser_Sprava[3]                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                         Laser_Sprava[4]                                    USINT    0 "                                                              41"    1    5    1   10    0    0         
                          Laser_Sprava[5]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
                          Laser_Sprava[6]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
                          Laser_Sprava[7]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[8]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                         Laser_Sprava[9]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[10]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[11]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[12]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[13]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[14]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                         Laser_Sprava[8]                                    USINT    0 "                                                              49"    1    5    1   10    0    0         
+                         Laser_Sprava[9]                                    USINT    0 "                                                              51"    1    5    1   10    0    0         
+                        Laser_Sprava[10]                                    USINT    0 "                                                              53"    1    5    1   10    0    0         
+                        Laser_Sprava[11]                                    USINT    0 "                                                              53"    1    5    1   10    0    0         
+                        Laser_Sprava[12]                                    USINT    0 "                                                              56"    1    5    1   10    0    0         
+                        Laser_Sprava[13]                                    USINT    0 "                                                              55"    1    5    1   10    0    0         
+                        Laser_Sprava[14]                                    USINT    0 "                                                              55"    1    5    1   10    0    0         
                         Laser_Sprava[15]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
                         Laser_Sprava[16]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[17]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[18]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[19]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[20]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[21]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[22]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[23]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                        Laser_Sprava[17]                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                        Laser_Sprava[18]                                    USINT    0 "                                                              50"    1    5    1   10    0    0         
+                        Laser_Sprava[19]                                    USINT    0 "                                                              49"    1    5    1   10    0    0         
+                        Laser_Sprava[20]                                    USINT    0 "                                                              48"    1    5    1   10    0    0         
+                        Laser_Sprava[21]                                    USINT    0 "                                                              53"    1    5    1   10    0    0         
+                        Laser_Sprava[22]                                    USINT    0 "                                                              49"    1    5    1   10    0    0         
+                        Laser_Sprava[23]                                    USINT    0 "                                                              55"    1    5    1   10    0    0         
                         Laser_Sprava[24]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[25]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[26]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[27]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[28]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[29]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[30]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[31]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                        Laser_Sprava[25]                                    USINT    0 "                                                               2"    1    5    1   10    0    0         
+                        Laser_Sprava[26]                                    USINT    0 "                                                              49"    1    5    1   10    0    0         
+                        Laser_Sprava[27]                                    USINT    0 "                                                              51"    1    5    1   10    0    0         
+                        Laser_Sprava[28]                                    USINT    0 "                                                              49"    1    5    1   10    0    0         
+                        Laser_Sprava[29]                                    USINT    0 "                                                              48"    1    5    1   10    0    0         
+                        Laser_Sprava[30]                                    USINT    0 "                                                              51"    1    5    1   10    0    0         
+                        Laser_Sprava[31]                                    USINT    0 "                                                              50"    1    5    1   10    0    0         
                         Laser_Sprava[32]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[33]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[34]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[35]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[36]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[37]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[38]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[39]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[40]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[41]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                        Laser_Sprava[33]                                    USINT    0 "                                                               3"    1    5    1   10    0    0         
+                        Laser_Sprava[34]                                    USINT    0 "                                                              83"    1    5    1   10    0    0         
+                        Laser_Sprava[35]                                    USINT    0 "                                                             116"    1    5    1   10    0    0         
+                        Laser_Sprava[36]                                    USINT    0 "                                                              97"    1    5    1   10    0    0         
+                        Laser_Sprava[37]                                    USINT    0 "                                                             116"    1    5    1   10    0    0         
+                        Laser_Sprava[38]                                    USINT    0 "                                                             111"    1    5    1   10    0    0         
+                        Laser_Sprava[39]                                    USINT    0 "                                                             114"    1    5    1   10    0    0         
+                        Laser_Sprava[40]                                    USINT    0 "                                                              69"    1    5    1   10    0    0         
+                        Laser_Sprava[41]                                    USINT    0 "                                                              77"    1    5    1   10    0    0         
                         Laser_Sprava[42]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[43]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[44]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[45]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[46]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[47]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                        Laser_Sprava[43]                                    USINT    0 "                                                               4"    1    5    1   10    0    0         
+                        Laser_Sprava[44]                                    USINT    0 "                                                              53"    1    5    1   10    0    0         
+                        Laser_Sprava[45]                                    USINT    0 "                                                              56"    1    5    1   10    0    0         
+                        Laser_Sprava[46]                                    USINT    0 "                                                              55"    1    5    1   10    0    0         
+                        Laser_Sprava[47]                                    USINT    0 "                                                              55"    1    5    1   10    0    0         
                         Laser_Sprava[48]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
-                        Laser_Sprava[49]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                        Laser_Sprava[49]                                    USINT    0 "                                                               3"    1    5    1   10    0    0         
                         Laser_Sprava[50]                                    USINT    0 "                                                               0"    1    5    1   10    0    0         

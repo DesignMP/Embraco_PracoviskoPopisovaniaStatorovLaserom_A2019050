@@ -1,7 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/SC/SC.fun
-$(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/Global.typ
-$(AS_PROJECT_PATH)/Logical/Program/Checker/Variables.var
-$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/SC/Types.typ

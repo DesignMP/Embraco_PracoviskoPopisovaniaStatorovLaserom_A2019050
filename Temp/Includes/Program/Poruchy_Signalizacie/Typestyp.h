@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_12_
-#define _BUR_1620202168_12_
+#ifndef _BUR_1621243498_12_
+#define _BUR_1621243498_12_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Poruchy_Signalizacie/Types.typ\\\"
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_12_ */
+#endif /* _BUR_1621243498_12_ */
 

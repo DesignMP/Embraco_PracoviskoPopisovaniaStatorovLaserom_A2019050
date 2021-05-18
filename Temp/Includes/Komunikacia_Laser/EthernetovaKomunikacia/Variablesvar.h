@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_19_
-#define _BUR_1620202168_19_
+#ifndef _BUR_1621243498_19_
+#define _BUR_1621243498_19_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Komunikacia_Laser/EthernetovaKomunikacia/V
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_19_ */
+#endif /* _BUR_1621243498_19_ */
 

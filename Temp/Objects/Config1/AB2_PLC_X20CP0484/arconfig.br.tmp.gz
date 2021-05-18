@@ -22,13 +22,12 @@
     <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
   </Module>
   <Module ID="IF2.ST1" Hardware="6PPT30.0702-20B">
-    <Parameter ID="HardwareModuleName" Value="TP1" />
+    <Parameter ID="HardwareModuleName" Value="OP1" />
     <Parameter ID="OS" Value="PPT" />
     <Parameter ID="Startmode" Value="1" />
     <Parameter ID="ShowBootlogoVNC" Value="0" />
     <Parameter ID="Mode" Value="Manual" />
     <Parameter ID="InternetAddress" Value="192.168.1.3" />
-    <Parameter ID="DefaultGateway" Value="192.168.1.1" />
     <Parameter ID="Subnetmask" Value="255.255.255.0" />
     <Parameter ID="ActivateDns" Value="1" />
     <Parameter ID="DnsDefaultDomain" Value="DnsSuffix" />
@@ -61,7 +60,7 @@
     <Parameter ID="PPTLogo" Value="none" />
     <Parameter ID="AnimatedBootLogo" Value="none" />
     <Parameter ID="PPTImage" Value="none" />
-    <Parameter ID="VncKeyMappingFile" Value="VC\6PPT30.0702-20B.dis" />
+    <Parameter ID="VncKeyMappingFile" Value="VC\6PPT30.0702-20B1.dis" />
     <Parameter ID="VncAuthentication" Value="0" />
     <Parameter ID="VncPortNumber" Value="5900" Type="UDINT" />
     <Parameter ID="VncMaxConnections" Value="1" Type="UINT" />
@@ -1763,4 +1762,4 @@
   <Module ID="SS1.IO" Hardware="X20IF10E1-1">
     <Parameter ID="FunctionModel" Value="Standard" />
   </Module>
-</IOCFG> 
+</IOCFG>   

@@ -1,5 +1,5 @@
 $(AS_CPU_PATH)/vycitanie_/citanie_casu_z_plc.ab.o:
 $(AS_CPU_PATH)/vycitanie_/citanie_casu_z_plc.ab.c
-$(AS_GNU_INST_PATH)/i686-elf/include/bur/plctypes.h
-$(AS_GNU_INST_PATH)/i686-elf/include/bur/plc.h
+$(AS_GNU_INST_PATH)/arm-eabi/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/arm-eabi/include/bur/plc.h
 $(AS_CPU_PATH)/vycitanie_/citanie_casu_z_plcab.h

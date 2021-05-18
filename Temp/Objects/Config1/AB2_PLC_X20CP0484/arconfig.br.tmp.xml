@@ -21,56 +21,6 @@
   <Module ID="IF2.SITEMAN" Hardware="SITEMAN">
     <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
   </Module>
-  <Module ID="IF2.ST1" Hardware="6PPT30.0702-20B">
-    <Parameter ID="HardwareModuleName" Value="TP1" />
-    <Parameter ID="OS" Value="PPT" />
-    <Parameter ID="Startmode" Value="1" />
-    <Parameter ID="ShowBootlogoVNC" Value="0" />
-    <Parameter ID="Mode" Value="Manual" />
-    <Parameter ID="InternetAddress" Value="192.168.1.3" />
-    <Parameter ID="DefaultGateway" Value="192.168.1.1" />
-    <Parameter ID="Subnetmask" Value="255.255.255.0" />
-    <Parameter ID="ActivateDns" Value="1" />
-    <Parameter ID="DnsDefaultDomain" Value="DnsSuffix" />
-    <Parameter ID="GetDnsFromDhcp" Value="2" />
-    <Parameter ID="ActivateNtpClient" Value="1" />
-    <Parameter ID="NtpServer1" Value="192.168.1.2" />
-    <Parameter ID="ActivateDaylightSavingTime" Value="0" />
-    <Parameter ID="TimeZone" Value="145" Type="UDINT" />
-    <Parameter ID="Displaybrightness" Value="50" Type="UINT" />
-    <Parameter ID="Screensaver" Value="0" />
-    <Parameter ID="ScreenRotation" Value="0" />
-    <Parameter ID="GifOffsetX" Value="0" Type="UDINT" />
-    <Parameter ID="GifOffsetY" Value="0" Type="UDINT" />
-    <Parameter ID="GifDelayMs" Value="0" Type="UDINT" />
-    <Parameter ID="Buzzer" Value="1" />
-    <Parameter ID="ActivateOpenService" Value="1" />
-    <Parameter ID="Buttonusage" Value="0" />
-    <Parameter ID="SelectedFavoriteVNC" Value="192.168.1.2:5900" />
-    <Parameter ID="PasswordVNCEncrypt" Value="0" />
-    <Parameter ID="RFBextension" Value="1" />
-    <Parameter ID="LocalScaling" Value="0" />
-    <Parameter ID="BrowserVKeyboard" Value="1" />
-    <Parameter ID="USBmemoryshare" Value="1" />
-    <Parameter ID="Usermemoryshare" Value="1" />
-    <Parameter ID="PasswordCIFSEncrypt" Value="0" />
-    <Parameter ID="UpdateServerType" Value="1" />
-    <Parameter ID="GetUpdateServerFromDhcp" Value="2" />
-    <Parameter ID="PasswordServiceEncrypt" Value="0" />
-    <Parameter ID="ActivateOpcUaServer" Value="0" />
-    <Parameter ID="PPTLogo" Value="none" />
-    <Parameter ID="AnimatedBootLogo" Value="none" />
-    <Parameter ID="PPTImage" Value="none" />
-    <Parameter ID="VncKeyMappingFile" Value="VC\6PPT30.0702-20B.dis" />
-    <Parameter ID="VncAuthentication" Value="0" />
-    <Parameter ID="VncPortNumber" Value="5900" Type="UDINT" />
-    <Parameter ID="VncMaxConnections" Value="1" Type="UINT" />
-    <Parameter ID="VncRefreshRate" Value="100" Type="UDINT" />
-    <Parameter ID="VncConnectionTimeout" Value="4" Type="UDINT" />
-    <Parameter ID="ANSLConnectionTypeForTerminals" Value="non-secure" />
-    <Parameter ID="Key1" Value="Bit" />
-    <Parameter ID="Key1_Position" Value="127" />
-  </Module>
   <Module ID="IF3" Hardware="X20BB62">
     <Parameter ID="Operation" Value="EPL-V2" />
     <Parameter ID="MtuSize" Value="300" Type="UDINT" />

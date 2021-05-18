@@ -24,11 +24,6 @@
     <Channel ID="IF3.CycleIdleTime" Description="Unoccupied time during one POWERLINK cycle [µs]" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
     <Channel ID="IF3.CycleCongestionCount" Description="allways 0, available for legacy projects" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
   </Module>
-  <Module ID="IF2.ST1" Hardware="6PPT30.0702-20B" HardwareModuleName="TP1" ModuleID="38">
-    <Channel ID="OPCUAconnectionOK" Description="Module status (1 = connection OK)" FromVersion="A4.51" Ext="/OK" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
-    <Channel ID="VK1" Description="Virtual Key 1" FromVersion="A4.51" BrowsePath="/[NI0]:Objects/[NI1]:DeviceSet/[NI3]:PowerPanelT30/[NI1]:ParameterSet/[NI3]:Keys/[NI3]:Key127" PublishingInterval="150" SamplingInterval="100" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="VK2" Description="Virtual Key 2" FromVersion="A4.51" BrowsePath="/[NI0]:Objects/[NI1]:DeviceSet/[NI3]:PowerPanelT30/[NI1]:ParameterSet/[NI3]:Keys/[NI3]:Key126" PublishingInterval="150" SamplingInterval="100" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-  </Module>
   <Module ID="IF3.ST1" Hardware="X67BC8331" HardwareModuleName="BC1_8DI/DO" ModuleID="26" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" FromVersion="C2.87" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
@@ -83,7 +78,7 @@
     <Channel ID="IF1.AsyncFrameSpareSize" Description="Size reserve within asynchronous frame [Bytes]" FromVersion="J4.08" Ext="/INFO" Address="0x8000011B" Direction="IN" Type="DINT" Resource="IF1" />
     <Channel ID="IF1.BusLengthConfigured" Description="Configured bus length [m]" FromVersion="J4.08" Ext="/INFO" Address="0x8000011C" Direction="IN" Type="DINT" Resource="IF1" />
   </Module>
-  <Module ID="IF3.ST1.IF1.ST2" Hardware="7XV116.50-62" HardwareModuleName="XV/VT1" ModuleID="75" Simulatable="true">
+  <Module ID="IF3.ST1.IF1.ST2" Hardware="7XV116.50-62" HardwareModuleName="XV/VT1" ModuleID="72" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
     <Channel ID="ModuleID" Description="Module ID" FromVersion="A3.08" Ext="/INFO" Address="10" Direction="IN" Type="UINT" Sig_St_Uint="1" />
@@ -197,7 +192,7 @@
     <Channel ID="DigitalOutput01" Description="Digital output 01" FromSafetyRelease="1.10" Ext="/SUB=PDOo" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_Dig_2A_24VDC="1" />
     <Channel ID="DigitalOutput02" Description="Digital output 02" FromSafetyRelease="1.10" Ext="/SUB=PDOo" Address="0" BitOffset="1" Direction="OUT" Type="BOOL" Sig_Dig_2A_24VDC="1" />
   </Module>
-  <Module ID="$root" Hardware="X20BB62" HardwareModuleName="X20BB62" ModuleID="41">
+  <Module ID="$root" Hardware="X20BB62" HardwareModuleName="X20BB62" ModuleID="38">
     <Channel ID="ModuleID_BB" Description="Module ID bus base" Ext="/HW" Address="10" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="ModuleID" />
     <Channel ID="IF6.CycleCount" Description="Number of bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
     <Channel ID="IF6.BreakCount" Description="Number of bus cycles with set break signal" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />

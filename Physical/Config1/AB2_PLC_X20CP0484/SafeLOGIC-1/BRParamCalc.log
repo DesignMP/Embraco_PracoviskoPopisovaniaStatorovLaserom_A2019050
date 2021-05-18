@@ -1,4 +1,4 @@
-LOGStart created on Monday 2021/05/10  UTC 13:19:51:502
+LOGStart created on Monday 2021/05/17  UTC 07:58:26:189
 
 Reading "OSDD Data"...
 Reading Content "Start"
@@ -99,7 +99,7 @@ Content "name1" successfully read from "name2"
 
 
 
-LOGAppend on Monday 2021/05/10  UTC 13:19:51:505
+LOGAppend on Monday 2021/05/17  UTC 07:58:26:191
 
 Reading "D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Physical\Config1\AB2_PLC_X20CP0484\SafeLOGIC-1\BusNavigator.iom"...
 Reading Content "IOOffsets"

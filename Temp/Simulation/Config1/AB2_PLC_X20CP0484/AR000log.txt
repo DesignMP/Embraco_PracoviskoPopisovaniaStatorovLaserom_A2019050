@@ -1,21 +1,21 @@
-Mon May 10 14:54:58 2021
+Mon May 17 09:37:00 2021
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Mon May 10 14:54:58 2021
+Mon May 17 09:37:00 2021
 No ARsim registration found!
 
-Mon May 10 14:54:58 2021
-InstanceName: 01d7459baee32c50
+Mon May 17 09:37:00 2021
+InstanceName: 01d74aef6c655b60
 
-Mon May 10 14:54:58 2021
+Mon May 17 09:37:00 2021
 WorkingDirectory: D:\Projekty BER\Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050\Temp\Simulation\Config1\AB2_PLC_X20CP0484\
 
-Mon May 10 14:54:58 2021
+Mon May 17 09:37:00 2021
 COMMAND_COLDSTART
 
-Mon May 10 14:55:01 2021
+Mon May 17 09:37:03 2021
 Version: C4.72
 
-Mon May 10 15:21:47 2021
+Mon May 17 09:37:20 2021
 COMMAND_TERMINATE
 

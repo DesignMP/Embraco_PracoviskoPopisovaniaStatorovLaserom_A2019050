@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620293027_1_
-#define _BUR_1620293027_1_
+#ifndef _BUR_1621243498_9_
+#define _BUR_1621243498_9_
 
 #include <bur/plctypes.h>
 
@@ -42,5 +42,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Popisovanie/Variables.var\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1620293027_1_ */
+#endif /* _BUR_1621243498_9_ */
 

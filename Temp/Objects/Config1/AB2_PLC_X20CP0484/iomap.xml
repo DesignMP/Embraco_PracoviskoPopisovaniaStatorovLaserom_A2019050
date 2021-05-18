@@ -65,15 +65,6 @@
 <LN ID="%ID.IF3.CycleCongestionCount" Type="UDINT">
 <Prod Device="$root" DPName="IF3.CycleCongestionCount" Kind="io"/>
 </LN>
-<LN ID="%IX.IF2.ST1.OPCUAconnectionOK" Type="BOOL">
-<Prod Device="IF2.ST1" DPName="OPCUAconnectionOK" Kind="io"/>
-</LN>
-<LN ID="%ID.IF2.ST1.VK1" Type="DINT">
-<Prod Device="IF2.ST1" DPName="VK1" Kind="io"/>
-</LN>
-<LN ID="%ID.IF2.ST1.VK2" Type="DINT">
-<Prod Device="IF2.ST1" DPName="VK2" Kind="io"/>
-</LN>
 <LN ID="%IX.IF3.ST1.ModuleOk" Type="BOOL">
 <Prod Device="IF3.ST1" DPName="ModuleOk" Kind="io"/>
 <Cons Device="TC#1-CPYDEV" DPName="Zariadenie.STAV.KOM_Modul_BC1_OK" Kind="pv"/>

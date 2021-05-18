@@ -1,5 +1,0 @@
-$(AS_CPU_PATH)/receptury/main.st.o:
-$(AS_CPU_PATH)/receptury/main.st.c
-$(AS_GNU_INST_PATH)/arm-eabi/include/bur/plctypes.h
-$(AS_GNU_INST_PATH)/arm-eabi/include/bur/plc.h
-$(AS_CPU_PATH)/receptury/mainst.h

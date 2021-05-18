@@ -5,7 +5,7 @@ ACTION SpravaPreLaser:
 	
   //*********************************Položky ktoré obsahuje QR kód*********************************************************//
   	//*******BOM materiálu***********//
-	QR_Kod.BOM_Statora:= ZvolenyBOM_kod_Statora;  //7 znakov
+	QR_Kod.BOM_Statora:= ZvolenyBOM_kod_Statora;  //8 znakov
 	
 	//*******Dátum výroby************//
 	//Deò//

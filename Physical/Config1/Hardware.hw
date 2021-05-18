@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.7.5.60?>
+<?AutomationStudio Version=4.7.6.114?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="AB1_ProfinetMaster" Type="X20IF10E1-1" Version="1.3.0.0">
     <Connection Connector="SS" TargetModule="X20BB62" TargetConnector="SS1" />
@@ -26,7 +26,6 @@
     </Connector>
     <Parameter ID="ConfigurationID" Value="Embraco_PracoviskoPopisovaniaLaserom_Config1" />
     <Parameter ID="UserPartitionSize" Value="500" />
-    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="UserRamSize" Value="10000" />
     <Parameter ID="RemMemSize" Value="20000" />
     <Parameter ID="PermanentPvSize" Value="8000" />
@@ -130,26 +129,6 @@
       <Cable Type="X2XCable" Length="10" Version="1.0.0.2" />
     </Connection>
     <Parameter ID="Supervision" Value="off" />
-  </Module>
-  <Module Name="TP1" Type="6PPT30.0702-20B" Version="1.3.3.0">
-    <Connection Connector="ETH1" TargetModule="AB2_PLC_X20CP0484" TargetConnector="IF2">
-      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
-    </Connection>
-    <Parameter ID="Terminal" Value="true" />
-    <Parameter ID="Startmode" Value="1" />
-    <Parameter ID="Mode" Value="Manual" />
-    <Parameter ID="InternetAddress" Value="192.168.1.3" />
-    <Parameter ID="DefaultGateway" Value="192.168.1.1" />
-    <Parameter ID="Subnetmask" Value="255.255.255.0" />
-    <Parameter ID="ActivateNtpClient" Value="1" />
-    <Parameter ID="NtpServer1" Value="192.168.1.2" />
-    <Parameter ID="TimeZone" Value="145" />
-    <Parameter ID="SelectedFavoriteVNC" Value="192.168.1.2:5900" />
-    <Parameter ID="PasswordVNC" Value="" />
-    <Parameter ID="PasswordCIFS" Value="" />
-    <Parameter ID="PasswordService" Value="" />
-    <Parameter ID="VncKeyMappingFile" Value="VC\6PPT30.0702-20B.dis" />
-    <Parameter ID="VncRefreshRate" Value="100" />
   </Module>
   <Module Name="X20BB62" Type="X20BB62" Version="1.1.1.0" />
   <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">

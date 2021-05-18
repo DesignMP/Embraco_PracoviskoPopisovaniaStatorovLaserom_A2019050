@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 
 export AS_SYSTEM_PATH := C:/BrAutomation/AS/System
-export AS_BIN_PATH := C:/BrAutomation/AS47/bin-en
+export AS_BIN_PATH := C:/BrAutomation/AS47/Bin-en
 export AS_INSTALL_PATH := C:/BrAutomation/AS47
 export AS_PATH := C:/BrAutomation/AS47
 export AS_VC_PATH := C:/BrAutomation/AS47/AS/VC
@@ -20,7 +20,7 @@ export AS_TEMP_PLC := AB2_PLC_X20CP0484
 export AS_USER_NAME := Martin\ Dvorscak
 export AS_CONFIGURATION := Config1
 export AS_COMPANY_NAME := \ 
-export AS_VERSION := 4.7.5.60\ SP
+export AS_VERSION := 4.7.6.114\ SP
 
 
 default: \

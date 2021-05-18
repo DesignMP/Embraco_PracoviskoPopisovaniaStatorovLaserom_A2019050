@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <BR.AS.HardwareTopology Version="0.0.0.1">
   <TimeStamps>
-    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/10/2021 14:57:53" />
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/17/2021 11:38:54" />
   </TimeStamps>
   <Modules>
     <Module Name="X20BB62" Type="X20BB62" X="100" Y="100" />
@@ -26,7 +26,6 @@
     <Module Name="BC1_8DI/DO" Type="X67BC8331" X="344" Y="163" />
     <Module Name="DI1_16DI" Type="X67DI1371.L08" X="527" Y="163" />
     <Module Name="SI1" Type="X67SI8103" X="641" Y="163" />
-    <Module Name="TP1" Type="6PPT30.0702-20B" X="100" Y="-56" />
     <Module Name="XV/VT1" Type="7XV116.50-62" X="428" Y="163" />
   </Modules>
   <Links>
@@ -39,18 +38,6 @@
       <Point X="198" Y="410" />
       <Point X="198" Y="398" />
       <Point X="198" Y="398" />
-    </Link>
-    <Link From="AB2_PLC_X20CP0484" To="TP1" FromPort="IF2" ToPort="ETH1" IsRoutedByUser="False">
-      <Point X="139" Y="190" />
-      <Point X="139" Y="190" />
-      <Point X="139" Y="201" />
-      <Point X="139" Y="205" />
-      <Point X="95" Y="205" />
-      <Point X="95" Y="95" />
-      <Point X="163.299988" Y="95" />
-      <Point X="163.299988" Y="51" />
-      <Point X="163.299988" Y="46" />
-      <Point X="163.299988" Y="46" />
     </Link>
     <Link From="AB2_PLC_X20CP0484" To="BC1_8DI/DO" FromPort="IF3" ToPort="PLK1" IsRoutedByUser="False">
       <Point X="139" Y="173" />

@@ -1,45 +1,6 @@
 <?xml version="1.0"?>
 <?hwc2hwd version="1.1"?>
 <HWD Version="2.0" xmlns="http://br-automation.com/AR/IO/HWD">
-  <Hardware Family="4" ID="6PPT30.0702-20B" Modno="-1">
-    <Parameter ID="SdmType" Type="UDINT" Value="2" />
-    <Parameter ID="UseType" Value="0" Type="UDINT" />
-    <Parameter ID="HwcShortName" Value="PPT3x" />
-    <Parameter ID="NeededBus" Value="OPCUA" />
-    <Parameter ID="CompatibleCode" Value="OpcUaClient" />
-    <Parameter ID="IOSuffix" Value="IO" />
-    <Resource ID="PPT">
-      <Parameter ID="SdmType" Type="UDINT" Value="2" />
-      <Parameter ID="Classcode" Value="0x20000034" Type="UDINT" />
-    </Resource>
-    <Resource ID="IO">
-      <Parameter ID="Transparent" Value="1" Type="UDINT" />
-      <Parameter ID="Classcode" Value="0x2000003C" Type="UDINT" />
-      <Parameter ID="NI0" Value="http://opcfoundation.org/UA/" Type="STRING" />
-      <Parameter ID="NI1" Value="http://opcfoundation.org/UA/DI/" Type="STRING" />
-      <Parameter ID="NI2" Value="http://br-automation.com/OpcUa/BrTypes/" Type="STRING" />
-      <Parameter ID="NI3" Value="http://br-automation.com/OpcUa/HMI/Terminal/" Type="STRING" />
-      <Channel ID="OPCUAconnectionOK">
-        <Parameter ID="Ext" Value="/OK" />
-        <Parameter ID="Direction" Value="IN" />
-        <Parameter ID="Type" Value="BOOL" />
-      </Channel>
-      <Channel ID="VK1">
-        <Parameter ID="BrowsePath" Value="/[NI0]:Objects/[NI1]:DeviceSet/[NI3]:PowerPanelT30/[NI1]:ParameterSet/[NI3]:Keys/[NI3]:Key127" />
-        <Parameter ID="PublishingInterval" Value="150" Type="INT" />
-        <Parameter ID="SamplingInterval" Value="100" Type="INT" />
-        <Parameter ID="Direction" Value="IN" />
-        <Parameter ID="Type" Value="DINT" />
-      </Channel>
-      <Channel ID="VK2">
-        <Parameter ID="BrowsePath" Value="/[NI0]:Objects/[NI1]:DeviceSet/[NI3]:PowerPanelT30/[NI1]:ParameterSet/[NI3]:Keys/[NI3]:Key126" />
-        <Parameter ID="PublishingInterval" Value="150" Type="INT" />
-        <Parameter ID="SamplingInterval" Value="100" Type="INT" />
-        <Parameter ID="Direction" Value="IN" />
-        <Parameter ID="Type" Value="DINT" />
-      </Channel>
-    </Resource>
-  </Hardware>
   <Hardware Family="10" ID="X67BC8331" Modno="42917" UseType="3">
     <Parameter ID="UseType" Value="6" Type="UDINT" />
     <Parameter ID="NeededBus" Value="PL" />

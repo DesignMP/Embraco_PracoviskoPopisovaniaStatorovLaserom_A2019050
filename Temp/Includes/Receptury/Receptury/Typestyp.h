@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1620202168_22_
-#define _BUR_1620202168_22_
+#ifndef _BUR_1621243498_22_
+#define _BUR_1621243498_22_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Receptury/Receptury/Types.typ\\\" scope \\
 __asm__(".previous");
 
 
-#endif /* _BUR_1620202168_22_ */
+#endif /* _BUR_1621243498_22_ */
 

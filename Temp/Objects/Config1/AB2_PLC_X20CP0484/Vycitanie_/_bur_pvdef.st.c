@@ -3,7 +3,7 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
 #include "D:/Projekty BER/Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050/Temp/Objects/Config1/AB2_PLC_X20CP0484/Vycitanie_/_bur_pvdefst.h"
-#line 9 "C:/BrAutomation/AS47/AS/GnuInst/V6.3.0/i686-elf/include/bur/_bur_pvdef.nodebug"
+#line 9 "C:/BrAutomation/AS47/AS/GnuInst/V6.3.0/arm-eabi/include/bur/_bur_pvdef.nodebug"
 void __AS__ImplInitcitanie_casu_z_PLC_ab(void);
 void _INIT __BUR__ENTRY_INIT_BRELF_FUNCT__(void){__AS__ImplInitcitanie_casu_z_PLC_ab();
 }
@@ -63,5 +63,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsMath/AsMath.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"D:/Projekty BER/Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050/Temp/Objects/Config1/AB2_PLC_X20CP0484/Vycitanie_/_bur_pvdef.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"D:/Projekty BER/Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050/Temp/Objects/Config1/AB2_PLC_X20CP0484/Vycitanie_/_bur_pvdef.st.c\\\" \\\"C:/BrAutomation/AS47/AS/GnuInst/V6.3.0/i686-elf/include/bur/_bur_pvdef.st\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"D:/Projekty BER/Embraco_PracoviskoPopisovaniaStatorovLaserom_A2019050/Temp/Objects/Config1/AB2_PLC_X20CP0484/Vycitanie_/_bur_pvdef.st.c\\\" \\\"C:/BrAutomation/AS47/AS/GnuInst/V6.3.0/arm-eabi/include/bur/_bur_pvdef.st\\\"\\n\"");
 __asm__(".previous");
